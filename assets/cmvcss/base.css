@@ -1,0 +1,13 @@
+* {margin: 0;padding: 0;}
+
+article,
+aside,
+footer,
+header,
+nav,
+main,
+figcaption,
+figure,
+section {display: block;}
+
+img {height: auto; max-width: 100%; vertical-align: middle;}
