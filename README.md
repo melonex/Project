@@ -1,3 +1,3 @@
 # Project
 practice
-<img src="assets/image/dust.png">
+<img src="assets/images/dust.png">
