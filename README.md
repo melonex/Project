@@ -1,3 +1,3 @@
 # Project
 practice
-<object type="text/html" data="index.html" ></object>
+<object type="text/html" data="Index.html" ></object>
