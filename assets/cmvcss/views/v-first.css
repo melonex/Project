@@ -1,13 +1,17 @@
 .v-first {width: 100%; background-color: #bde9ff}
 
+.v-first-image {margin-left: 8vw;width: 50%-8vw;}
+
 .v-first-image,
-.v-first-certificates {display: inline-block; padding-top: 8vh; width: 50%;}
-.v-first-certificates {float: left;}
+.v-first-certificates {display: inline-block; padding-top: 50px; }
+.v-first-certificates {float: left; width: 50%;}
 
 .v-first-certificates-text,
 .v-first-certificates-list {width: 100%;}
 
 .v-first-certificates-list-box,
-.v-first-certificates-text-box {margin-right: 5vw; float: right; text-align: right;}
-.v-first-certificates-text-box h1 {padding-bottom: 10px;}
-.v-first-certificates-list-box {height: 50vh;}
+.v-first-certificates-text-box {margin-right: 0; float: right; text-align: right;}
+.v-first-certificates-text-box {width: 100%;}
+.v-first-certificates-text-box h1 {padding-bottom: 10px;font-size: xx-large;}
+.v-first-certificates-text-box p {font-size: larger;}
+.v-first-certificates-text-box {margin-top: 100px;}

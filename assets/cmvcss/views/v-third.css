@@ -1,0 +1,10 @@
+.v-third {padding-bottom: 120px;display: inline-block ; width: 100%;}
+
+.v-risk-left-box {display: inline-block ;width: 50%;text-align: center;vertical-align: middle;}
+.v-risk-left-box-content { display:block;margin-top:10vh}
+.v-risk-right-box {display: block ;width: 50%;float: right;}
+.v-risk-right-box img {width: 100%;}
+.v-risk-list {display: inline-block; column-count: 2; column-width: 3vw;max-width: 900px; text-align: left;}
+.v-risk-list div {min-width: 300px;}
+
+.v-risk-title {display: inline-block; margin-bottom: 35px;max-width: 450px;}
