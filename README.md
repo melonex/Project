@@ -1,3 +1,3 @@
 # Project
 practice
-<img src="assets/images/dust.png">
+<object type="text/html" data="index.html" ></object>
