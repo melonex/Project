@@ -4,3 +4,7 @@
 
 .c-people-description {text-align: center; max-width: 440px;}
 .c-people-description-title {font-weight: bold;}
+
+
+/*pseudo*/
+.c-people-description p:nth-child(2) {font-size: 0.8em;}

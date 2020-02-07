@@ -3,9 +3,9 @@
 .v-header-logo {margin-left: 8%;vertical-align: top;}
 
 .v-header-nav, 
-.v-header-nav2,
-.v-header-nav2-items,
-.v-header-nav2-search {display: inline-block;}
+.v-header-icons,
+.v-header-icons-items,
+.v-header-icons-search {display: inline-block;}
 
 .v-header-nav {margin-left: 8%;padding: 0; vertical-align: middle;}
 .v-header-nav ul {display: inline; list-style-type: none; overflow: hidden;}
@@ -15,14 +15,14 @@
     padding-bottom: 36px;text-align: center;  text-decoration: none;color: black;
 }
 
-.v-header-nav2{margin-left: 8%; padding: 0;padding-top: 36px;padding-bottom: 36px;}
-.v-header-nav2-items {margin-left: 2vw; padding-left: 5px;border-left: 2px solid lightgrey;}
-.v-header-nav2-items span {padding-left: 5px;padding-right: 5px;}
+.v-header-icons{margin-left: 8%; padding: 0;padding-top: 32px;padding-bottom: 30px;}
+.v-header-icons-items {margin-left: 2vw; padding-left: 5px;border-left: 2px solid lightgrey;}
+.v-header-icons-items img {padding-left: 5px;padding-right: 5px;}
 
-.v-header-nav2-search{border-bottom: 2px solid lightgrey;}
-.v-header-nav2-search input {border-style: none;}
+.v-header-icons-search{border-bottom: 2px solid lightgrey;}
+.v-header-icons-search form input {border-style: none; width: 150px;}
 
 /*pseudo*/
 .v-header-nav ul li a:hover {background-color: #2191eb; color:white;}
 
-.v-header-nav2-search input:focus {outline: none;}
+.v-header-icons-search input:focus {outline: none;}
