@@ -1,6 +1,6 @@
-.c-certificate {margin-top: 0px;padding: 0%; display: inline-block; width: 150px;padding-left: 0.5208333333333333vw; padding-right: 0.5208333333333333vw;}
-
+.c-certificate {
+    margin-top: 0px;padding: 0%; display: inline-block; width: 150px;
+    padding-left: 0.521vw; padding-right: 0.521vw;
+}
 .c-certificate-image {margin-top: 35px;padding-bottom: 5px; height: 150px;}
-
-.c-certificate-text {text-align: center;}
-
+.c-certificate-text {text-align: center; font-size: 0.9em; font-weight: 300;}

@@ -1,11 +1,14 @@
-.v-third {padding-bottom: 120px;display: inline-block ; width: 100%;}
+.v-third {padding-bottom: 120px;display: inline-block ; width: 100%; height:705px;}
 
-.v-risk-left-box {display: inline-block ;width: 50%;text-align: center;vertical-align: middle;}
-.v-risk-left-box-content { display:block;margin-top:10vh}
-.v-risk-right-box {display: block ;width: 50%;float: right;}
-.v-risk-right-box img {width: 100%;}
-.v-risk-list {display: inline-block; column-count: 2; column-width: 3vw;max-width: 900px; text-align: left;}
-.v-risk-list div {min-width: 300px;}
+.v-third-risk-left-box {display: inline-block ; width: 50%; text-align: center; vertical-align: middle;}
+.v-third-risk-left-box-content { display:block; margin-top:10vh}
 
-.v-risk-title {display: inline-block; margin-bottom: 35px;max-width: 450px;}
+.v-third-risk-right-box {
+    display: block ;width: 50%;float: right; height:705px;
+    background-image: url("../../images/section_third/humans.png");background-repeat: no-repeat;background-size: 100%,100%;
+    background-position: left center;
+}
 
+.v-third-risk-list {display: inline-block; column-count: 2; column-width: 3vw;max-width: 900px; text-align: left;}
+.v-third-risk-list div {min-width: 300px;}
+.v-third-risk-title {display: inline-block; margin-bottom: 35px;max-width: 450px;}

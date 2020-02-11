@@ -6,6 +6,7 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/base.css">
+    <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-search-bar.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/views/v-header.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-certificate.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/views/v-first.css">
@@ -39,10 +40,10 @@
         </ul>
     </nav>
     <div class="v-header-icons">
-        <div class="v-header-icons-search">
-            <form>
-                <input type="text" placeholder="search">
-                <img src="assets/images/header/icon_search.png">
+        <div class="c-search-bar">
+            <form class="c-search-bar-form">
+                <input class="c-search-bar-form-input" type="text" placeholder="search">
+                <img class="c-search-bar-form-icon" src="assets/images/header/icon_search.png">
             </form>
         </div>
         <div class="v-header-icons-items">
@@ -56,7 +57,7 @@
         <div class="v-first-certificates">
             <div class="v-first-certificates-text">
                 <div class="v-first-certificates-text-box">
-                    <h1>Breath IDEAL air</h1>
+                    <span>Breath </span><img src="assets/images/section_first/slogan_IDEAL.png"><span> air</span>
                     <p>The best european quality. Guaranteed.<p>
                     <p>IDEAL is setting new benchmarks for air purification</p>
                 </div>
@@ -87,16 +88,16 @@
         </div>
     </section>
     <section class="v-second">
-        <div class="v-question">
-            <div class="v-question-image">
+        <div class="v-second-question">
+            <div class="v-second-question-image">
                 <img src="assets/images/section_second/Q.png">
             </div>
-            <div class="v-question-text">
+            <div class="v-second-question-text">
                 <h1>Which pollutants do our purifiers remove?</h1>
             </div>
         </div>
-        <div class="v-pollutians">
-            <div class="v-pollutians-box">
+        <div class="v-second-pollutians">
+            <div class="v-second-pollutians-box">
                 <div class="c-pollutian">
                     <img class="c-pollutian-image" src="assets/images/section_second/allergens.png">
                     <p class="c-pollutian-title">Allergens</p>
@@ -129,17 +130,17 @@
                 </div>
             </div>
         </div>
-        <div class="v-purifier">
+        <div class="v-second-purifier">
             <img src="assets/images/section_second/purifier.png">
         </div>
     </section>
     <section class="v-third">
-        <div class="v-risk-left-box">
-            <div class="v-risk-left-box-content">
-                <div class="v-risk-title">
+        <div class="v-third-risk-left-box">
+            <div class="v-third-risk-left-box-content">
+                <div class="v-third-risk-title">
                     <h1>Air pollution increase the risk of many diseases:</h1>
                 </div>
-                <div class="v-risk-list">
+                <div class="v-third-risk-list">
                     <div class="c-risk">
                         <img class="c-risk-image" src="assets/images/section_third/dislike.png"><span class="c-risk-text">Cardiovascular diseases</span>
                     </div>
@@ -197,8 +198,7 @@
                 </div>
             </div>
         </div>
-        <div class="v-risk-right-box">
-            <img src="assets/images/section_third/humans.png">
+        <div class="v-third-risk-right-box">
         </div>
     </section>
     <section class="v-fourth">
@@ -276,7 +276,7 @@
                 </div>
             </div>
             <div class="v-fifth-content-image">
-                <img src="assets/images/section_fifth/dots.png">
+                <img src="assets/images/section_fifth/dots_2.png">
             </div>
             <div class="v-fifth-content-text">
                     <p>
@@ -308,9 +308,10 @@
         </div>
     </section>
     <section class="v-sixth">
-        <div class="v-product-list">
+        <div class="v-sixth-product-list">
             <div class="m-product">
                 <div class="m-product-image">
+                    <span class="m-product-image-vertical-center"></span>
                     <img src="assets/images/section_sixth/purifier_sale_1.png">
                 </div>
                 <div class="m-product-descriptions">
@@ -378,6 +379,7 @@
             </div>
             <div class="m-product">
                 <div class="m-product-image">
+                    <span class="m-product-image-vertical-center"></span>
                     <img src="assets/images/section_sixth/purifier_sale_1.png">
                 </div>
                 <div class="m-product-descriptions">
@@ -445,6 +447,7 @@
             </div>
             <div class="m-product">
                 <div class="m-product-image">
+                    <span class="m-product-image-vertical-center"></span>
                     <img src="assets/images/section_sixth/purifier_sale_1.png">
                 </div>
                 <div class="m-product-descriptions">

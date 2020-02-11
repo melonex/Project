@@ -1,7 +1,12 @@
-.c-pollutian {margin-top: 0px;margin-left: 1.5vw;margin-right: 1.5vw; padding-bottom: 0px; display: inline-block;}
-.c-pollutian-image {display: block; margin-top: 35px;margin-left: auto;margin-right: auto; padding-bottom: 5px; height: 150px;}
+.c-pollutian {
+    display: inline-block; margin-top: 0px; margin-left: 1.5vw; margin-right: 1.5vw;
+    padding-bottom: 0px; vertical-align: top;
+}
+.c-pollutian-image {
+    display: block; margin-top: 35px;margin-left: auto;margin-right: auto; 
+    padding-bottom: 5px; height: 150px;
+}
 
-.c-pollutian-title,
-.c-pollutian-text {text-align: center; max-width: 270px;}
+.c-pollutian-text { max-width: 270px; text-align: center; font-weight: 300;}
 
-.c-pollutian-title {font-weight: bold;}
+.c-pollutian-title { max-width: 270px; text-align: center; font-size: 1.1em;}

@@ -1,0 +1,6 @@
+.c-search-bar {display: inline-block; border-bottom: 2px solid lightgrey;}
+
+.c-search-bar-form-input {border-style: none; width: 150px;}
+
+/*pseudo*/
+.c-search-bar-form-img:hover {cursor: pointer;}

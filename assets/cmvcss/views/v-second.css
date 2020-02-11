@@ -1,11 +1,11 @@
 .v-second { width: 100%;}
 
-.v-pollutians{padding-bottom: 50px; text-align: center;}
-.v-pollutians-box {display: inline-block;}
+.v-second-pollutians{padding-bottom: 50px; text-align: center;}
+.v-second-pollutians-box {display: inline-block;}
 
-.v-question {padding-top: 80px;}
-.v-question-image {margin-left: auto; margin-right: auto;width:200px;}
-.v-question-text {margin-top: -100px ;margin-left: auto; margin-right: auto; margin-bottom: 50px; text-align: center;}
+.v-second-question {padding-top: 80px;}
+.v-second-question-image {margin-left: auto; margin-right: auto;width:200px;}
+.v-second-question-text {margin-top: -100px ;margin-left: auto; margin-right: auto; margin-bottom: 50px; text-align: center;}
 
-.v-purifier {text-align: center;}
-.v-purifier img{display: inline-block;padding-bottom: 150px;}
+.v-second-purifier {text-align: center;}
+.v-second-purifier img{display: inline-block;padding-bottom: 150px;}

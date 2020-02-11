@@ -1,6 +1,7 @@
 .v-fifth {
-         display: inline-block;margin-top: 100px; width: 100%; height: 800px;background-color: #f3fbfd;
+         display: inline-block;margin-top: 100px; width: 100%; min-height: 800px;background-color: #f3fbfd;
          background-image: url("../../images/section_fifth/purifier_back.png");background-repeat: no-repeat;background-size: 100%,100%;
+         background-position: left bottom;
 }
 
 .v-fifth-content {display: block;}
@@ -10,24 +11,18 @@
 .v-fifth-content-text {display: inline-block;margin-top: 75px;}
 
 .v-fifth-content-image {margin-left: 2%; width: 25px;}
-.v-fifth-content-text { padding-left: 35px ;width:36%; vertical-align: top;}
+.v-fifth-content-text {padding-left: 35px; width:36%; vertical-align: top;}
 .v-fifth-content-text button {
-     margin-top: 20px;padding-top: 10px;padding-bottom: 10px; width: 300px;background-color: #20a7f7;
-     color:white; border-width: 1px; border-radius: 12px;
+     margin-top: 20px; padding-top: 10px; padding-bottom: 10px; width: 300px; background-color: #20a7f7;
+     color:white;
 }
-
-.v-fifth-content-title {width:47%;text-align: right; vertical-align: top;}
+.v-fifth-content-title {width:47%; text-align: right; vertical-align: top;}
 .v-fifth-content-title h1{font-size: 1.6em;}
 .v-fifth-content-title p {margin-bottom: 10px;}
 .v-fifth-content-title div {margin-bottom: 30px;}
 
 
-
 /*pseudo*/
 .v-fifth-content-title h1:nth-child(2){color:#2a96f2;}
-.v-fifth-content-text p:nth-child( odd ) {margin-bottom:23.5px;font-size:22px;font-weight: bold;border-left-width: 10px;}
-.v-fifth-content-text p:nth-child( even ) {margin-top:5px; margin-bottom: 20px;}
-
-
-
-
+.v-fifth-content-text p:nth-child(odd) {margin-bottom:23.5px; font-size:22px; font-weight: bold; border-left-width: 10px;}
+.v-fifth-content-text p:nth-child(even) {margin-top:5px; margin-bottom: 20px;}

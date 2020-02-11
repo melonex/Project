@@ -6,12 +6,16 @@
 .v-first-certificates {display: inline-block; padding-top: 50px; }
 .v-first-certificates {float: left; width: 50%;}
 
+
 .v-first-certificates-text,
-.v-first-certificates-list {width: 100%;}
+.v-first-certificates-list,
+.v-first-certificates-text-box {width: 100%;}
 
 .v-first-certificates-list-box,
 .v-first-certificates-text-box {margin-right: 0; float: right; text-align: right;}
-.v-first-certificates-text-box {width: 100%;}
-.v-first-certificates-text-box h1 {padding-bottom: 10px;font-size: xx-large;}
-.v-first-certificates-text-box p {font-size: larger;}
+.v-first-certificates-text-box span {padding-bottom: 10px;font-size: 2.3em;}
+.v-first-certificates-text-box  img { margin-top: -22px; padding-left: 2px;padding-right: 2px;}
+.v-first-certificates-text-box p {font-size: 1.2em; font-weight: 300;}
+
+
 .v-first-certificates-text-box {margin-top: 100px;}

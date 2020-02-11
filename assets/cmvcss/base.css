@@ -12,3 +12,9 @@ section {display: block;}
 
 img {height: auto; max-width: 100%; vertical-align: middle;}
 h1 {font-size: 35px;font-weight: normal;}
+button {border-width: 1px; border-radius: 12px;}
+
+/*pseudo*/
+input:focus,
+button:focus{ outline: none;}
+button:hover {cursor: pointer}
