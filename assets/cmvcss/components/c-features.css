@@ -4,3 +4,4 @@
 }
 .c-features-image {float: left;}
 .c-features-text {padding-left: 50px;}
+.c-features-text p span {font-size: inherit; font-weight: 600;}

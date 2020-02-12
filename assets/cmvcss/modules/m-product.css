@@ -2,11 +2,11 @@
 
 .m-product-name {display: inline-block; padding-top:20px; width:40%; min-width: 250px; float:left}
 .m-product-image {display: inline-block ;width:50%; min-height: 620px;white-space: nowrap;}
-.m-product-image-vertical-center {display: inline-block; height: 620px; vertical-align: middle;}
+.m-product-image-vertical-center {margin-left:-3px;display: inline-block; height: 620px; vertical-align: middle;}
 .m-product-image img {vertical-align: middle;}
 
 .m-product-descriptions {padding-left: 3%; width:47%;float: right;}
-.m-product-certificate {width:50%;float:left;}
+.m-product-certificate {padding-bottom: 10px; width:50%;float:left;}
 
 .m-product-details {width:100%;}
 .m-product-details button {
@@ -22,7 +22,7 @@
 
 
 /*pseudo*/
-.m-product-name p:nth-child(1) {font-size: 1.3em;}
-.m-product-name p:nth-child(2) {font-size: 1.4em;;font-weight:bold;}
+.m-product-name p:nth-child(1) {font-size: 1.3em;font-weight: 300;}
+.m-product-name p:nth-child(2) {font-size: 1.4em;}
 
 .m-product-features .c-features:last-child{border: none;}

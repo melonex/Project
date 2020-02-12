@@ -23,6 +23,6 @@
 
 
 /*pseudo*/
-.v-fifth-content-title h1:nth-child(2){color:#2a96f2;}
+.v-fifth-content-title h1:nth-child(2){color:#2a96f2;font-weight: 600;}
 .v-fifth-content-text p:nth-child(odd) {margin-bottom:23.5px; font-size:22px; font-weight: bold; border-left-width: 10px;}
 .v-fifth-content-text p:nth-child(even) {margin-top:5px; margin-bottom: 20px;}

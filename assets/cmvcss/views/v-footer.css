@@ -12,8 +12,8 @@
 
 .v-footer-bottom {height:80px;}
 .v-footer-bottom-copyrights {float: left;}
-.v-footer-bottom-made-by p {margin-right: 155px; padding-top: 27px;}
-.v-footer-bottom-copyrights p{margin-left: 155px; padding-top: 27px;}
+.v-footer-bottom-made-by p {margin-right: 155px; padding-top: 27px; font-weight: 300;}
+.v-footer-bottom-copyrights p{margin-left: 155px; padding-top: 27px; font-weight: 300;}
 .v-footer-bottom-made-by {float: right;}
 
 .v-footer-social-media {font-size: 1.8em;}
@@ -28,6 +28,8 @@
 @media screen and (max-width: 1470px) {
     .v-footer-top-box { width: 100%;}
     .v-footer-col{margin-left: 2vw; margin-right: 2vw;}
+    .v-footer-bottom-made-by p {margin-right: 75px;}
+    .v-footer-bottom-copyrights p{margin-left: 75px;}
 
     .v-footer-col:first-child {margin-right: 3vw;}
 }
