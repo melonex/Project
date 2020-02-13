@@ -6,31 +6,34 @@
 .v-header-icons,
 .v-header-icons-items {display: inline-block;}
 
-.v-header-nav {margin-left: 8%;padding: 0; vertical-align: middle;float: left;}
+.v-header-nav {margin-left: 0;padding: 0; vertical-align: middle;float: left;}
 .v-header-nav ul {display: inline; list-style-type: none; overflow: hidden;}
 .v-header-nav ul li { float: left;}
 .v-header-nav ul li a {
     display: inline-block; margin: 0; padding-left: 15px; padding-right: 15px; padding-top: 36px;
     padding-bottom: 36px;text-align: center;  text-decoration: none;color: black;
 }
-.v-header-icons{margin-left: 8%; padding: 0;padding-top: 32px;padding-bottom: 30px;}
+.v-header-icons{margin-right: 8%; padding: 0;padding-top: 32px;padding-bottom: 30px; float:right;}
 .v-header-icons-items {margin-left: 2vw; padding-left: 5px;border-left: 2px solid lightgrey;}
 .v-header-icons-items img {padding-left: 5px;padding-right: 5px;}
-/*.v-header-icons-items span {padding-left: 5px;padding-right: 5px;font-size: 30px;}*/
+
 
 /*pseudo*/
 .v-header-nav ul li a:hover {background-color: #2191eb; color:white;}
 .v-header-icons-items img:hover {cursor: pointer;}
 
+/* modifiers */
+.v-header-nav.is-hidden {display: none;} 
+.v-header-icons-items #hamburger.is-hidden {display: none;}
 
 
 @media screen and (max-width: 1600px) {
     .v-header-nav,
-    .v-header-icons {margin-left: 1%;}
+    .v-header-icons {margin-right: 1%;}
 }
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1435px) {
     
-    .v-header-icons{margin-left: 30vw;}
-    .v-header-nav {display: block; margin-left: 6%; height:90px;float: none;}
-    .v-header-nav ul li a {padding-left: 34px; padding-right: 34px;}
+    .v-header-icons{margin-right: 8vw;}
+    .v-header-nav {display: block; margin-left: 5%;margin-right: 0; height:100px;width:95%;float: right;}
+    .v-header-nav ul li a {padding-left: 30px; padding-right: 30px; font-size: 1.15em;}
 }

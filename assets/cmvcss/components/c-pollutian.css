@@ -1,7 +1,6 @@
 .c-pollutian {
-    display: inline-block; margin-top: 0px; margin-left: 1.5vw; margin-right: 1.5vw;
-    padding-bottom: 0px; vertical-align: top;
-}
+    display: inline-block; margin-left: 1.5vw; margin-right: 1.5vw; vertical-align: top;}
+
 .c-pollutian-image {
     display: block; margin-top: 35px;margin-left: auto;margin-right: auto; 
     padding-bottom: 5px; height: 150px;

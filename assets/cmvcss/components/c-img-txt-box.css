@@ -1,0 +1,9 @@
+.c-img-txt-box {display: inline-block; margin-left: 1.5vw; margin-right: 1.5vw; vertical-align: top;}
+
+.c-img-txt-box-image {
+    display: block; margin-top: 35px;margin-left: auto;margin-right: auto; 
+    padding-bottom: 5px;
+}
+.c-img-txt-box-description {text-align: center; max-width: 270px;}
+.c-img-txt-box-description-title {font-size: 1.1em;}
+.c-img-txt-box-description-text {font-weight: 300;}

@@ -11,3 +11,6 @@
     .c-risk-image{margin-left:12px}
     .c-risk-box{display: inline-block;width:80%;}
 }
+@media screen and (max-width: 980px) {
+    .c-risk-box-text {font-size: 1.15em;}
+}

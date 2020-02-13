@@ -11,6 +11,7 @@
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-certificate.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/views/v-first.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-pollutian.css">
+    <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-img-txt-box.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/views/v-second.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-risk.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/views/v-third.css">
@@ -25,6 +26,8 @@
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/views/v-seventh.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/views/v-footer.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/utils.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="assets/js/menu.js"></script>
 </head>
 
 <body>
@@ -40,6 +43,7 @@
         <div class="v-header-icons-items">
             <img src="assets/images/header/icon_user.png">
             <img src="assets/images/header/icon_cart.png">
+            <img id="hamburger" class="is-hidden" src="assets/images/header/hamburger.png">
         </div>
     </div>
     <nav class="v-header-nav">
@@ -100,10 +104,14 @@
         </div>
         <div class="v-second-pollutians">
             <div class="v-second-pollutians-box">
-                <div class="c-pollutian">
-                    <img class="c-pollutian-image" src="assets/images/section_second/allergens.png">
-                    <p class="c-pollutian-title">Allergens</p>
-                    <p class="c-pollutian-text">(pollen, mites)</p>
+                <div class="c-img-txt-box">
+                    <div class="c-img-txt-box-image">
+                        <img src="assets/images/section_second/allergens.png">
+                    </div>
+                    <div class="c-img-txt-box-description">
+                        <p class="c-img-txt-box-description-title">Allergens</p>
+                        <p class="c-img-txt-box-description-text">(pollen, mites)</p>
+                    </div>
                 </div>
                 <div class="c-pollutian">
                     <img class="c-pollutian-image" src="assets/images/section_second/cigarette_smoke.png">
