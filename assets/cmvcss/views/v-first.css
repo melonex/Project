@@ -26,4 +26,5 @@
 @media screen and (max-width: 1334px) {
     
     .v-first-certificates-text-box {padding-top: 0;}
+    .v-first-image {display:flex; align-items: flex-end;}
 }

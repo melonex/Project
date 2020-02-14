@@ -5,3 +5,15 @@
 
 .v-fourth-items-list {padding-bottom: 50px; text-align: center;}
 .v-fourth-items-list-box {display: inline-block; margin-left: 8.854vw; margin-right: 8.854vw;}
+
+
+.v-fourth-items-list-box .c-img-txt-box-image {padding-bottom: 20px;}
+.v-fourth-items-list-box .c-img-txt-box-description {max-width: 440px;}
+.v-fourth-items-list-box .c-img-txt-box-description .c-img-txt-box-description-title {padding-bottom: 12px;font-size: 1.3em;}
+.v-fourth-items-list-box .c-img-txt-box-description .c-img-txt-box-description-text {font-size: 0.82em;}
+
+
+@media screen and (max-width: 1024px) {
+    .v-fourth-items-list-box .c-img-txt-box-description .c-img-txt-box-description-title {font-size: 1.4em;}
+    .v-fourth-items-list-box .c-img-txt-box-description .c-img-txt-box-description-text {font-size: 1em;}
+}
