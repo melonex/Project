@@ -1,0 +1,6 @@
+.c-cart{display: inline;}
+
+.c-cart-image { margin-top:-15px; margin-left:-26px;}
+
+/* modifiers */
+.c-cart .c-cart-image.is-hidden {display: none;}

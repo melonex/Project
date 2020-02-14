@@ -24,7 +24,8 @@
 
 /* modifiers */
 .v-header.is-sticky {position: fixed; left: 0; top: 0; z-index: 100; border-bottom: 2px solid lightgrey;}
-.v-header-nav.is-hidden {display: none;} 
+
+.v-header-nav.is-hidden,
 .v-header-icons-items #hamburger.is-hidden {display: none;}
 
 
@@ -37,4 +38,5 @@
     .v-header-icons{margin-right: 8vw;}
     .v-header-nav {display: block; padding-left: 5%;margin-right: 0; height:100px;width:95%;float: right;}
     .v-header-nav ul li a {padding-left: 30px; padding-right: 30px; font-size: 1.15em;}
+    .v-header-icons-items .c-cart .c-cart-image {margin-left:-27px;}
 }
