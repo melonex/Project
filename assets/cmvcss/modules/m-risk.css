@@ -1,0 +1,4 @@
+.m-risk-list {display: inline-block; column-count: 2;max-width: 900px; text-align: left;}
+
+.m-risk-title {display: inline-block; margin-bottom: 35px;max-width: 450px;}
+.m-risk-title h1 span {font-size: inherit; font-weight: 600;}

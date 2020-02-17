@@ -38,5 +38,7 @@
     .v-header-icons{margin-right: 8vw;}
     .v-header-nav {display: block; padding-left: 5%;margin-right: 0; height:100px;width:95%;float: right;}
     .v-header-nav ul li a {padding-left: 30px; padding-right: 30px; font-size: 1.15em;}
-    .v-header-icons-items .c-cart .c-cart-image {margin-left:-27px;}
+    .v-header-icons-items .c-cart .c-cart-image {margin-left:-37px;}
+    .v-header-icons-items img {padding-left: 10px;padding-right: 10px;}
+    .v-header-icons-items #hamburger {padding-left: 5px;}
 }

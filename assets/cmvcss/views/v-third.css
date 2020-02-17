@@ -8,8 +8,3 @@
     background-image: url("../../images/section_third/humans.png");background-repeat: no-repeat;background-size: 100%,100%;
     background-position: left center;
 }
-
-.v-third-risk-list {display: inline-block; column-count: 2;max-width: 900px; text-align: left;}
-
-.v-third-risk-title {display: inline-block; margin-bottom: 35px;max-width: 450px;}
-.v-third-risk-title h1 span {font-size: inherit; font-weight: 600;}
