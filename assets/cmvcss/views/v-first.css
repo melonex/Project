@@ -1,30 +1,50 @@
-.v-first {display: flex; width: 100%; background: rgb(255,255,255);
-    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(232,247,255,1) 43%, rgba(189,233,255,1) 80%, rgba(189,233,255,1) 100%);
+.v-first {
+    display: flex; width: 100%; min-height: 720px; background-color: white;
+    background-image: url("../../images/section_first/breath-ideal-air.jpg");
+    background-repeat: no-repeat; background-position: center bottom;
 }
 
-.v-first-image {width:50%;}
-.v-first-image img{width: 85%; height: auto;}
+.v-first-box {margin-top: 90px; width: inherit;}
+.v-first-box-certificates {padding-right: 20px; width: 50%;}
 
-.v-first-image,
-.v-first-certificates {display: inline-block; padding-top: 50px; }
-.v-first-certificates {float: left; width: 50%; height:inherit;}
+.v-first-box-certificates-list,
+.v-first-box-certificates-text,
+.v-first-box-certificates-text-box {width: 100%;}
 
+.v-first-box-certificates-list-box,
+.v-first-box-certificates-text-box {margin-right: 0; float: right; text-align: right;}
+.v-first-box-certificates-text-box h1 {padding-bottom: 25px;font-size: 50px;}
+.v-first-box-certificates-text-box  h1 img { margin-top: -8px; padding-left: 2px;padding-right: 2px;}
+.v-first-box-certificates-text-box p { padding-bottom: 2px; font-size: 26px; font-weight: 300;}
 
-.v-first-certificates-text,
-.v-first-certificates-list,
-.v-first-certificates-text-box {width: 100%;}
+.v-first-box-certificates-text-box {padding-top: 100px;}
 
-.v-first-certificates-list-box,
-.v-first-certificates-text-box {margin-right: 0; float: right; text-align: right;}
-.v-first-certificates-text-box span {padding-bottom: 10px;font-size: 2.3em;}
-.v-first-certificates-text-box  img { margin-top: -22px; padding-left: 2px;padding-right: 2px;}
-.v-first-certificates-text-box p {font-size: 1.2em; font-weight: 300;}
-
-
-.v-first-certificates-text-box {padding-top: 100px;}
-
-@media screen and (max-width: 1334px) {
+@media screen and (max-width: 1366px) {
+    .v-first {min-height: 550px;background-size: 1366px auto;background-position-y: 75px;}
+    .v-first-box {margin-top: 75px;}
+    .v-first-box-certificates { width: 60%;}
+    .v-first-box-certificates-text-box {padding-top: 40px;}
+    .v-first-box-certificates-text-box h1 {padding-bottom: 25px;font-size: 38px;}
+    .v-first-box-certificates-text-box  h1 img { width: 130px;}
+    .v-first-box-certificates-text-box p {font-size: 22px; font-weight: 300;}
+    .v-first-box-certificates-list-box .c-certificate {
+        display: inline-block; margin-top: 25px;padding: 0 5px; width: 130px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .v-first-box {background-color: #FFFFFFAA;}
+    .v-first-box-certificates {width: 70%;}
+}
+@media screen and (max-width: 830px) {
+    .v-first-box {background-color: #FFFFFFFF;}
+    .v-first-box-certificates {padding-right: 0; width: 100%;}
+    .v-first-box-certificates-text-box,
+    .v-first-box-certificates-list-box { float: none; text-align: center;}
     
-    .v-first-certificates-text-box {padding-top: 0;}
-    .v-first-image {display:flex; align-items: flex-end;}
+}
+@media screen and (max-width: 600px) {
+    .v-first-box-certificates-list-box {padding: 0 17.5vw;}
+}
+@media screen and (max-width: 410px) {
+    .v-first-box-certificates-list-box {padding: 0 2vw;}
 }

@@ -1,3 +1,2 @@
-.c-image-panel {display: inline-block; position: relative; margin:20px;}
-.c-image-panel-text {position: absolute; bottom: 18px; left: 24px; color:white;}
-    
+.c-image-panel {display: inline-block; margin:20px; max-width: 400px; position: relative;}
+.c-image-panel-text { color:white; position: absolute; bottom: 18px; left: 24px;}

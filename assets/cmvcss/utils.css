@@ -1,3 +1,15 @@
-.flex-center {display: flex;
+.flex-center {
+    display: flex;
     height: inherit;
-    align-items: center;}
+    align-items: center;
+}
+
+.gradient {
+    background: linear-gradient(45deg,#01b0ec 0%,#3a7aea 100%);
+}
+.gradient-text{
+    background: linear-gradient(to right,#11c1fe 0%,#3a7aea 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

@@ -1,19 +1,34 @@
-.v-fourth {width: 100%;}
-
-.v-fourth-title {margin-bottom: 50px; text-align: center;}
+.v-fourth {margin-top: 90px; width: 100%;}
+.v-fourth-title {margin-bottom: 20px; text-align: center;}
 .v-fourth-title h1 span {font-size: inherit; font-weight: 600;}
 
-.v-fourth-items-list {padding-bottom: 50px; text-align: center;}
-.v-fourth-items-list-box {display: inline-block; margin-left: 8.854vw; margin-right: 8.854vw;}
+.v-fourth-items-list {padding-top: 20px;padding-bottom: 50px; text-align: center;}
+.v-fourth-items-list-box {display: inline-block; max-width: 1355px;}
 
+.v-fourth-items-list-box .c-img-txt-box {margin-left: 20px; margin-right: 20px;}
+.v-fourth-items-list-box .c-img-txt-box .c-img-txt-box-image {padding-bottom: 35px;width: auto; height: auto;}
+.v-fourth-items-list-box .c-img-txt-box .c-img-txt-box-description {max-width: 400px;}
+.v-fourth-items-list-box .c-img-txt-box .c-img-txt-box-description .c-img-txt-box-description-title {
+    padding-bottom: 12px;font-size: 24px;
+}
+.v-fourth-items-list-box .c-img-txt-box .c-img-txt-box-description .c-img-txt-box-description-text {
+    font-weight: 300;line-height: 25px;
+}
 
-.v-fourth-items-list-box .c-img-txt-box-image {padding-bottom: 20px;}
-.v-fourth-items-list-box .c-img-txt-box-description {max-width: 440px;}
-.v-fourth-items-list-box .c-img-txt-box-description .c-img-txt-box-description-title {padding-bottom: 12px;font-size: 1.3em;}
-.v-fourth-items-list-box .c-img-txt-box-description .c-img-txt-box-description-text {font-size: 0.82em;}
-
-
+@media screen and (max-width: 1366px) {
+    .v-fourth-title h1 { font-size: 32px;}
+}
 @media screen and (max-width: 1024px) {
-    .v-fourth-items-list-box .c-img-txt-box-description .c-img-txt-box-description-title {font-size: 1.4em;}
-    .v-fourth-items-list-box .c-img-txt-box-description .c-img-txt-box-description-text {font-size: 1em;}
+    .v-fourth-items-list-box .c-img-txt-box .c-img-txt-box-description .c-img-txt-box-description-title {
+        font-size: 22px;
+    }
+    .v-fourth-items-list-box .c-img-txt-box .c-img-txt-box-image img {width: 180px;}
+}
+@media screen and (max-width: 830px){
+    .v-fourth-title h1 { font-size: 28px;}
+    .v-fourth-items-list-box .c-img-txt-box .c-img-txt-box-image {padding-bottom: 20px;}
+}
+@media screen and (max-width: 500px) {
+    .v-fourth-items-list-box .c-img-txt-box .c-img-txt-box-image img {width: 150px;}
+    .v-fourth-title h1 { font-size: 24px;}
 }

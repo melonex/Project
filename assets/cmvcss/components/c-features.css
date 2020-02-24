@@ -1,6 +1,6 @@
 .c-features {
     display:block; padding-top: 20px;padding-bottom: 15px;
-    border-bottom: 2px solid lightgrey;width:250px
+    border-bottom: 1px solid lightgrey;width:250px
 }
 .c-features-image {float: left;}
 .c-features-text {padding-left: 50px;}
