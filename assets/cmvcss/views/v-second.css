@@ -10,7 +10,9 @@
 
 .v-second-pollutians{padding-bottom: 75px; text-align: center;}
 .v-second-pollutians-box {display: inline-block; max-width: 1355px;}
-.v-second-pollutians-box .c-img-txt-box-description .c-img-txt-box-description-text {line-height: 30px; font-weight: 300;}
+.v-second-pollutians-box .c-img-txt-box {margin-left: 54px; margin-right: 4px;}
+.v-second-pollutians-box .c-img-txt-box .c-img-txt-box-description {margin-top: 20px;}
+.v-second-pollutians-box .c-img-txt-box .c-img-txt-box-description .c-img-txt-box-description-text {line-height: 30px; font-weight: 300;}
 
 @media screen and (max-width: 1366px) {
     .v-second-question {padding-top: 30px;}

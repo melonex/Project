@@ -3,6 +3,7 @@
 .v-seventh-panels,
 .v-seventh-title {display: inline-block; margin-bottom: 20px; text-align: center;width: 1355px;}
 
+.v-seventh-title {margin-bottom: 40px;}
 .v-seventh-title p{padding-bottom: 30px;font-size: 35px;}
  
 @media screen and (max-width: 1366px) {

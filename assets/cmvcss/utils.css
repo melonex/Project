@@ -13,3 +13,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.bg-image-air{
+    background-image: url("../images/footer/footer_air.png"); 
+    background-repeat: no-repeat;background-position: center;
+}

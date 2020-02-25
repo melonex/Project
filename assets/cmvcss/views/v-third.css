@@ -34,6 +34,6 @@
 @media screen and (max-width: 500px){
     .v-third {padding-bottom: 320px;}
     .v-third-risk-left-box .flex-center{display: block;}
-    .v-third-risk-left-box-content .m-risk .m-risk-title h1{font-size: 24px;}
+    .v-third-risk-left-box-content .m-risk .m-risk-title h1{padding: 0 20px; font-size: 24px;}
     .v-third-risk-left-box-content .m-risk .m-risk-list{column-count: 1;}    
 }
