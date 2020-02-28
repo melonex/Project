@@ -1,4 +1,12 @@
-.c-risk { margin-bottom: 18px; vertical-align: bottom;}
-.c-risk-image {display: inline-block; vertical-align: top;}
-.c-risk-box{display: inline-block;}
-.c-risk-box-text {display:inline-block; padding-left: 20px; font-weight: 300;min-height: 32px;}
+.c-risk { vertical-align: bottom;}
+.c-risk-box{
+    display: inline-block; padding-top: 15px; padding-bottom: 15px; padding-left: 50px; 
+    padding-right: 5px; position: relative;
+}
+.c-risk-box-text {display:inline-block; font-weight: 300;}
+
+.c-risk-box:before{
+    content: ""; display: block; width: 32px; height: 32px; 
+    background-image: url("../../images/section_third/dislike.png"); background-repeat: no-repeat;
+    background-position: center center; position: absolute; top:8px; left:10px;
+}
