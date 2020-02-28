@@ -1,8 +1,9 @@
 .c-search-bar {display: inline-block; margin-right: 40px; border-bottom: 1px solid #aeaeae;}
 .c-search-bar-form-input {width: 150px; height: 44px; font-size: 0.8em; border-style: none;}
+.c-search-bar-form-icon {font-size: 24px;vertical-align: middle;}
 
 /*pseudo*/
-.c-search-bar-form-img:hover {cursor: pointer;}
+.c-search-bar-form-icon:hover {cursor: pointer;}
 
 /* modifiers */
 .c-search-bar .c-search-bar-form .c-search-bar-form-input.is-hidden {display: none;}

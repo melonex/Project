@@ -1,0 +1,177 @@
+@font-face{
+	font-family:"icube-font";
+	src:url(icube-font.eot);
+	src:url("icube-font.eot?#iefix") format("embedded-opentype"),url(icube-font.woff) format("woff"),url(icube-font.ttf) format("truetype"),url("icube-font.svg#icube-font") format("svg");
+	font-weight:normal;
+	font-style:normal;
+	font-display:swap;
+	}
+[data-icon]:before{
+		font-family:"icube-font" !important;content:attr(data-icon);
+		font-style:normal !important;font-weight:normal !important;font-variant:normal !important;text-transform:none !important;
+		speak:none;
+		line-height:1;
+		-webkit-font-smoothing:antialiased;
+		-moz-osx-font-smoothing:grayscale}[class^="icube-icon-"]:before,[class*=" icube-icon-"]:before{font-family:"icube-font" !important;font-style:normal !important;font-weight:normal !important;font-variant:normal !important;
+		text-transform:none !important;
+		speak:none;
+		line-height:1;
+		-webkit-font-smoothing:antialiased;
+		-moz-osx-font-smoothing:grayscale;
+}
+.icube-icon-angle-up:before{content:"\61"}
+.icube-icon-angle-down:before{content:"\62"}
+.icube-icon-angle-left:before{content:"\63"}
+.icube-icon-angle-right:before{content:"\64"}
+.icube-icon-phone:before{content:"\66"}
+.icube-icon-th-large:before{content:"\67"}
+.icube-icon-square:before{content:"\68"}
+.icube-icon-envelope-o:before{content:"\69"}
+.icube-icon-facebook-square:before{content:"\6a"}
+.icube-icon-circle:before{content:"\6b"}
+.icube-icon-search:before{content:"\6c"}
+.icube-icon-chevron-circle-right:before{content:"\6f"}
+.icube-icon-angle-double-right:before{content:"\70"}
+.icube-icon-arrow-circle-o-right:before{content:"\71"}
+.icube-icon-arrow-circle-right:before{content:"\72"}
+.icube-icon-arrow-right:before{content:"\73"}
+.icube-icon-caret-right:before{content:"\74"}
+.icube-icon-caret-square-o-right:before{content:"\75"}
+.icube-icon-chevron-right:before{content:"\76"}
+.icube-icon-fast-forward:before{content:"\77"}
+.icube-icon-forward:before{content:"\78"}
+.icube-icon-hand-o-right:before{content:"\79"}
+.icube-icon-step-forward:before{content:"\7a"}
+.icube-icon-angle-double-left:before{content:"\41"}
+.icube-icon-arrow-circle-left:before{content:"\42"}
+.icube-icon-arrow-circle-o-left:before{content:"\43"}
+.icube-icon-arrow-left:before{content:"\44"}
+.icube-icon-backward:before{content:"\45"}
+.icube-icon-caret-left:before{content:"\46"}
+.icube-icon-caret-square-o-left:before{content:"\47"}
+.icube-icon-chevron-circle-left:before{content:"\48"}
+.icube-icon-chevron-left:before{content:"\49"}
+.icube-icon-fast-backward:before{content:"\4a"}
+.icube-icon-hand-o-left:before{content:"\4b"}
+.icube-icon-long-arrow-left:before{content:"\4c"}
+.icube-icon-step-backward:before{content:"\4d"}
+.icube-icon-angle-double-up:before{content:"\38"}
+.icube-icon-angle-double-down:before{content:"\39"}
+.icube-icon-arrow-circle-down:before{content:"\21"}
+.icube-icon-arrow-circle-o-up:before{content:"\22"}
+.icube-icon-arrow-circle-up:before{content:"\23"}
+.icube-icon-arrow-down:before{content:"\24"}
+.icube-icon-arrow-up:before{content:"\25"}
+.icube-icon-arrow-circle-o-down:before{content:"\26"}
+.icube-icon-arrows:before{content:"\27"}
+.icube-icon-arrows-alt:before{content:"\28"}
+.icube-icon-arrows-h:before{content:"\29"}
+.icube-icon-arrows-v:before{content:"\2a"}
+.icube-icon-caret-square-o-down:before{content:"\2b"}
+.icube-icon-caret-square-o-up:before{content:"\2c"}
+.icube-icon-chevron-down:before{content:"\2d"}
+.icube-icon-chevron-circle-up:before{content:"\2e"}
+.icube-icon-chevron-circle-down:before{content:"\2f"}
+.icube-icon-chevron-up:before{content:"\3a"}
+.icube-icon-circle-o:before{content:"\3b"}
+.icube-icon-envelope:before{content:"\3c"}
+.icube-icon-file-pdf-o:before{content:"\3d"}
+.icube-icon-file-image-o:before{content:"\3e"}
+.icube-icon-file-o:before{content:"\3f"}
+.icube-icon-hand-o-up:before{content:"\40"}
+.icube-icon-heart:before{content:"\5b"}
+.icube-icon-heart-o:before{content:"\5d"}
+.icube-icon-linkedin:before{content:"\5e"}
+.icube-icon-linkedin-square:before{content:"\5f"}
+.icube-icon-instagram:before{content:"\60"}
+.icube-icon-picture-o:before{content:"\7b"}
+.icube-icon-paper-plane:before{content:"\7c"}
+.icube-icon-paper-plane-o:before{content:"\7d"}
+.icube-icon-paperclip:before{content:"\7e"}
+.icube-icon-square-o:before{content:"\5c"}
+.icube-icon-thumbs-o-up:before{content:"\e000"}
+.icube-icon-thumbs-o-down:before{content:"\e001"}
+.icube-icon-thumbs-down:before{content:"\e002"}
+.icube-icon-thumbs-up:before{content:"\e003"}
+.icube-icon-twitter-square:before{content:"\e004"}
+.icube-icon-twitter:before{content:"\e005"}
+.icube-icon-twitch:before{content:"\e006"}
+.icube-icon-vimeo-square:before{content:"\e007"}
+.icube-icon-vimeo:before{content:"\e008"}
+.icube-icon-windows:before{content:"\e009"}
+.icube-icon-wikipedia-w:before{content:"\e00a"}
+.icube-icon-wordpress:before{content:"\e00b"}
+.icube-icon-youtube:before{content:"\e00c"}
+.icube-icon-youtube-play:before{content:"\e00d"}
+.icube-icon-youtube-square:before{content:"\e00e"}
+.icube-icon-y-combinator:before{content:"\e00f"}
+.icube-icon-yahoo:before{content:"\e010"}
+.icube-icon-sticky-note:before{content:"\e011"}
+.icube-icon-sticky-note-o:before{content:"\e012"}
+.icube-icon-folder:before{content:"\e013"}
+.icube-icon-folder-o:before{content:"\e014"}
+.icube-icon-folder-open:before{content:"\e015"}
+.icube-icon-folder-open-o:before{content:"\e016"}
+.icube-icon-check:before{content:"\e017"}
+.icube-icon-check-circle:before{content:"\e018"}
+.icube-icon-check-circle-o:before{content:"\e019"}
+.icube-icon-check-square:before{content:"\e01a"}
+.icube-icon-check-square-o:before{content:"\e01b"}
+.icube-icon-long-arrow-right:before{content:"\e01c"}
+.icube-icon-long-arrow-up:before{content:"\e01d"}
+.icube-icon-long-arrow-down:before{content:"\e01e"}
+.icube-icon-lock:before{content:"\e01f"}
+.icube-icon-location-arrow:before{content:"\e020"}
+.icube-icon-map-pin:before{content:"\e021"}
+.icube-icon-shopping-cart:before{content:"\e022"}
+.icube-icon-search-minus:before{content:"\e023"}
+.icube-icon-search-plus:before{content:"\e024"}
+.icube-icon-star:before{content:"\e025"}
+.icube-icon-star-half:before{content:"\e026"}
+.icube-icon-star-half-o:before{content:"\e027"}
+.icube-icon-star-o:before{content:"\e028"}
+.icube-icon-calendar:before{content:"\6e"}
+.icube-icon-calendar-check-o:before{content:"\36"}
+.icube-icon-calendar-o:before{content:"\37"}
+.icube-icon-map-marker:before{content:"\e029"}
+.icube-icon-sign-in:before{content:"\65"}
+.icube-icon-sign-out:before{content:"\6d"}
+.icube-icon-times:before{content:"\4e"}
+.icube-icon-times-circle:before{content:"\4f"}
+.icube-icon-times-circle-o:before{content:"\50"}
+.icube-icon-unlock:before{content:"\51"}
+.icube-icon-unlock-alt:before{content:"\52"}
+.icube-icon-undo:before{content:"\53"}
+.icube-icon-commenting:before{content:"\54"}
+.icube-icon-commenting-o:before{content:"\55"}
+.icube-icon-credit-card:before{content:"\56"}
+.icube-icon-cube:before{content:"\57"}
+.icube-icon-cog:before{content:"\58"}
+.icube-icon-user:before{content:"\59"}
+.icube-icon-pinterest:before{content:"\5a"}
+.icube-icon-pinterest-p:before{content:"\30"}
+.icube-icon-pinterest-square:before{content:"\31"}
+.icube-icon-minus:before{content:"\32"}
+.icube-icon-caret-up:before{content:"\33"}
+.icube-icon-caret-down:before{content:"\34"}
+.icube-icon-camera:before{content:"\35"}
+.icube-icon-phone-square:before{content:"\e02a"}
+.icube-icon-vine:before{content:"\e02b"}
+.icube-icon-whatsapp:before{content:"\e02c"}
+.icube-icon-slack:before{content:"\e02d"}
+.icube-icon-bars:before{content:"\e02e"}
+.icube-icon-google:before{content:"\e02f"}
+.icube-icon-google-plus:before{content:"\e030"}
+.icube-icon-google-plus-square:before{content:"\e031"}
+.icube-icon-upload:before{content:"\e032"}
+.icube-icon-download:before{content:"\e033"}
+.icube-icon-plus:before{content:"\e034"}
+.icube-icon-question:before{content:"\e035"}
+.icube-icon-exclamation:before{content:"\e037"}
+.icube-icon-exclamation-circle:before{content:"\e038"}
+.icube-icon-question-circle:before{content:"\e036"}
+.icube-icon-cart-2:before{content:"\e039"}
+.icube-icon-search-2:before{content:"\e03a"}
+.icube-icon-user-2:before{content:"\e03b"}
+.icube-icon-heart-2:before{content:"\e03c"}
+		

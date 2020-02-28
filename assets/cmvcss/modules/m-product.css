@@ -9,16 +9,13 @@
 
 .m-product-descriptions-details {width:100%;}
 .m-product-descriptions-details button {
-    margin-top: 10px;padding-bottom: 9px; width: 200px; line-height: 35px; background-color: #20a7f7;
-    color:white;
+    margin-top: 10px; width: 200px; line-height: 54px; background-color: #20a7f7;
+    color:white; font-size: 20px;text-transform: uppercase;
 }
-.m-product-button-icon  {
-    display: inline-block; width: 30px; height:30px; margin-top: 10px; margin-bottom: -5px;
-    background-image: url("../../images/section_sixth/icon_cart_white.png"); background-repeat: no-repeat;
-    background-size: 100%, 100%;
-}   
+.m-product-descriptions-details button span {font-size: inherit;}
 .m-product-descriptions-features {padding-top: 20px;}
 
 
 /*pseudo*/
+.m-product-descriptions-details button span:before{margin-right: 10px;}
 .m-product-descriptions-features .c-features:last-child{border: none;}

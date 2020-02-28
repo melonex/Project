@@ -10,7 +10,8 @@
     .v-seventh-panels,
     .v-seventh-title {width: 100%;}
     .v-seventh-title h1{font-size: 32px;}
-    .v-seventh-panels .c-image-panel {margin:5px; max-width: 340px;}
+    .v-seventh-panels .c-image-panel {margin:5px;}
+    .v-seventh-panels .c-image-panel .c-image-panel-box {max-width: 340px;}
 }
 @media screen and (max-width: 830px) {
     .v-seventh-title h1{font-size: 28px;}

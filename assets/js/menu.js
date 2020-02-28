@@ -4,7 +4,7 @@ var isSticky = false;
 var stickyNavTop;
 
 function  Hidding_nav(){
-    if($( window ).width()<=1024){
+    if($( window ).width()<=1030){
         $(".v-header-box-nav").addClass("is-hidden");
         $("#hamburger").removeClass("is-hidden");
         navHidden = true;
@@ -91,7 +91,7 @@ $(document).ready(function(){
         }
     }); 
     $(window).scroll(function() {
-        if($( window ).width()<=1024){
+        if($( window ).width()<=1030){
             Sticky_nav();
         }
     });    

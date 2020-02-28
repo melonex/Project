@@ -4,8 +4,7 @@
     <title>Airything - Best Air Purifiers</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/font-icube.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/base.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-search-bar.css">
     <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-cart.css">
@@ -35,36 +34,41 @@
 <body>
     <header class="v-header">
         <div class="v-header-box">
-            <img class="v-header-box-logo" src="assets/images/header/airything-logo.svg" alt="Airything">
+            <a class="v-header-box-logo" href="#">
+                <img src="assets/images/header/airything-logo.svg" alt="Airything">
+            </a>
             <nav class="v-header-box-nav">
                 <ul>
-                    <li><a href="">Air purifiers</a></li>
-                    <li><a href="">Filters</a></li>
-                    <li><a href="">Accessories</a></li>
-                    <li><a href="">Quality</a></li>
-                    <li><a href="">Learn</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#">Air purifiers</a></li>
+                    <li><a href="#">Filters</a></li>
+                    <li><a href="#">Accessories</a></li>
+                    <li><a href="#">Quality</a></li>
+                    <li><a href="#">Learn</a></li>
+                    <li><a href="#">Contact</a></li>
                 </ul>
             </nav> 
             <div class="v-header-box-icons">
                 <div class="c-search-bar">
                     <form class="c-search-bar-form">
                         <input class="c-search-bar-form-input" type="text" placeholder="search">
-                        <img class="c-search-bar-form-icon" src="assets/images/header/icon_search.png" alt="">
+                        <span class="c-search-bar-form-icon icube-icon-search-2"></span>
+                        <!--<img class="c-search-bar-form-icon" src="assets/images/header/icon_search.png" alt="">-->
                     </form>
                 </div>
                 <div class="v-header-box-icons-items">
-                    <img src="assets/images/header/icon_user.png" alt="">
-                    <img src="assets/images/header/icon_cart.png" alt="">
-                    <div class="c-cart">
-                        <img class="c-cart-image is-hidden" src="assets/images/header/cart_iterator.png" alt="">
-                    </div>
-                    <img id="hamburger" class="is-hidden" src="assets/images/header/hamburger.png" alt="">
+                    <a class="icube-icon-user-2" href="#"></a>
+                    <a class="icube-icon-cart-2" href="#">
+                        <div class="c-cart">
+                            <img class="c-cart-image is-hidden" src="assets/images/header/cart_iterator.png" alt="">
+                        </div>
+                    </a>
+                    <a id="hamburger" class="icube-icon-bars is-hidden" href="#">
+                    </a>
                 </div>
             </div>
         </div> 
     </header>
-    <main>
+    <main id="v-home-page">
         <section class="v-first">
             <div class="v-first-box">
                 <div class="v-first-box-certificates">
@@ -76,24 +80,24 @@
                         </div>
                     </div>
                     <div class="v-first-box-certificates-list">
-                        <div class="v-first-box-certificates-list-box">
-                            <div class="c-certificate">
+                        <ul class="v-first-box-certificates-list-box">
+                            <li class="c-certificate">
                                 <img class="c-certificate-image" src="assets/images/section_first/German_quality.png" alt="Premium quality made in Germany">
                                 <p class="c-certificate-text">Guaranteed Quality</p>
-                            </div>
-                            <div class="c-certificate">
+                            </li>
+                            <li class="c-certificate">
                                 <img class="c-certificate-image" src="assets/images/section_first/Hygiene_certified.png" alt="Hygiene certified">
                                 <p class="c-certificate-text">Certyfikat Institut Schwarzkopf</p>
-                            </div>
-                            <div class="c-certificate">
+                            </li>
+                            <li class="c-certificate">
                                 <img class="c-certificate-image" src="assets/images/section_first/Ecarf_institute.png" alt="ECARF Institute GmbH">
                                 <p class="c-certificate-text">Allergy-friendly Quality Tested</p>
-                            </div>
-                            <div class="c-certificate">
+                            </li>
+                            <li class="c-certificate">
                                 <img class="c-certificate-image" src="assets/images/section_first/ISO_9001.png" alt="EQ ZERT ISO 9001 ZERTIFIZIERT">
                                 <p class="c-certificate-text">Environmental managment</p>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -104,12 +108,12 @@
                     <img src="assets/images/section_second/question_mark.png" alt="">
                 </div>
                 <div class="v-second-question-text">
-                    <h1><span>Which pollutants</span> do our purifiers remove?</h1>
+                    <h1><b>Which pollutants</b> do our purifiers remove?</h1>
                 </div>
             </div>
             <div class="v-second-pollutians">
-                <div class="v-second-pollutians-box">
-                    <div class="c-img-txt-box">
+                <ul class="v-second-pollutians-box">
+                    <li class="c-img-txt-box">
                         <div class="c-img-txt-box-image">
                             <img src="assets/images/section_second/allergens.png" alt="">
                         </div>
@@ -117,8 +121,8 @@
                             <p class="c-img-txt-box-description-title">Allergens</p>
                             <p class="c-img-txt-box-description-text">(pollen, mites)</p>
                         </div>
-                    </div>
-                    <div class="c-img-txt-box">
+                    </li>
+                    <li class="c-img-txt-box">
                         <div class="c-img-txt-box-image">
                             <img src="assets/images/section_second/cigarette_smoke.png" alt="">
                         </div>
@@ -126,8 +130,8 @@
                             <p class="c-img-txt-box-description-title">Cigarette smoke</p>
                             <p class="c-img-txt-box-description-text">& Household odors</p>
                         </div>
-                    </div>
-                    <div class="c-img-txt-box">
+                    </li>
+                    <li class="c-img-txt-box">
                         <div class="c-img-txt-box-image">
                             <img src="assets/images/section_second/dust.png" alt="">
                         </div>
@@ -135,8 +139,8 @@
                             <p class="c-img-txt-box-description-title">Dust</p>
                             <p class="c-img-txt-box-description-text">(bacteria, mite droppings, parasite eggs, heavy metals)</p>
                         </div>
-                    </div>
-                    <div class="c-img-txt-box">
+                    </li>
+                    <li class="c-img-txt-box">
                         <div class="c-img-txt-box-image">
                             <img src="assets/images/section_second/pm.png" alt="">
                         </div>
@@ -144,8 +148,8 @@
                             <p class="c-img-txt-box-description-title">PM 2,5, PM5, PM10</p>
                             <p class="c-img-txt-box-description-text">dusts</p>
                         </div>
-                    </div>
-                    <div class="c-img-txt-box">
+                    </li>
+                    <li class="c-img-txt-box">
                         <div class="c-img-txt-box-image">
                             <img src="assets/images/section_second/volatile_oragnic.png" alt="">
                         </div>
@@ -153,8 +157,8 @@
                             <p class="c-img-txt-box-description-title">Volatile organic compounds</p>
                             <p class="c-img-txt-box-description-text"></p>
                         </div>
-                    </div>
-                    <div class="c-img-txt-box">
+                    </li>
+                    <li class="c-img-txt-box">
                         <div class="c-img-txt-box-image">
                             <img src="assets/images/section_second/mikcroorganisms.png" alt="">
                         </div>
@@ -162,8 +166,8 @@
                             <p class="c-img-txt-box-description-title">Microorganisms</p>
                             <p class="c-img-txt-box-description-text">& viruses, bacteria, furngi</p>
                         </div>
-                    </div>
-                </div>
+                    </li>
+                </ul>
             </div>
             <div class="v-second-purifier">
                 <img src="assets/images/section_second/purifier.png" alt="IDEAL purifiers">
@@ -177,62 +181,62 @@
                             <div class="m-risk-title">
                                 <h1><b>Air pollution</b> increase the risk <br> of many <b>diseases:</b></h1>
                             </div>
-                            <div class="m-risk-list">
-                                <div class="c-risk">
+                            <ul class="m-risk-list">
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Cardiovascular diseases</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Stroke</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Lung cancer</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Alzheimer's disease</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Asthma</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Respiratory diseases</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Allergies</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Heart failure</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Cough</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Throat cancer</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Conjunctivitis</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Respiratory distress</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Susceptibility to depression </p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Arterial hypertension</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Laryngeal cancer</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Runny nose</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Myocardial infarction</p></div>
-                                </div>
-                                <div class="c-risk">
+                                </li>
+                                <li class="c-risk">
                                     <div class="c-risk-image"><img src="assets/images/section_third/dislike.png" alt=""></div><div class="c-risk-box"><p class="c-risk-box-text">Problems with concentration</p></div>
-                                </div>
-                            </div>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
@@ -243,7 +247,7 @@
         </section>
         <section class="v-fourth">
             <div class="v-fourth-title">
-                <h1>Who <span>should care</span> about clean air?</h1>
+                <h1>Who <b>should care</b> about clean air?</h1>
             </div>
             <div class="v-fourth-items-list">
                 <div class="v-fourth-items-list-box">
@@ -355,50 +359,50 @@
                                     <sup class="c-price-box-currency">$</sup>549
                                 </div>
                             </div>
-                                <button class="gradient"> <span class="m-product-button-icon"></span> BUY NOW</button>
+                                <button class="gradient"> <span class="icube-icon-cart-2"></span>Buy Now</button>
                         </div>
-                        <div class="m-product-descriptions-features">
-                            <div class="c-features">
+                        <ul class="m-product-descriptions-features">
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_area.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p>Area up to <span>40</span> m2</p>
+                                    <p>Area up to <b>40</b> m2</p>
                                 </div>
-                            </div>
-                            <div class="c-features">
+                            </li>
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_sound.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p>Loudness <span>17-45</span> dB</p>
+                                    <p>Loudness <b>17-45</b> dB</p>
                                 </div>
-                            </div>
-                            <div class="c-features">
+                            </li>
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_sensor.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p>Sensors <span>PM2.5</span> & <span>LZO</span></p>
+                                    <p>Sensors <b>PM2.5</b> & <b>LZO</b></p>
                                 </div>
-                            </div>
-                            <div class="c-features">
+                            </li>
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_auto.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p><span>AUTO</span> mode</p>
+                                    <p><b>AUTO</b> mode</p>
                                 </div>
-                            </div>
-                            <div class="c-features">
+                            </li>
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_wifi.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p><span>WIFI</span> control</p>
+                                    <p><b>WIFI</b> control</p>
                                 </div>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="m-product">
@@ -420,50 +424,50 @@
                                     <sup class="c-price-box-currency">$</sup>729
                                 </div>
                             </div>
-                                <button class="gradient"> <span class="m-product-button-icon"></span> BUY NOW</button>
+                                <button class="gradient"> <span class="icube-icon-cart-2"></span> BUY NOW</button>
                         </div>
-                        <div class="m-product-descriptions-features">
-                            <div class="c-features">
+                        <ul class="m-product-descriptions-features">
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_area.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p>Area up to <span>55</span> m2</p>
+                                    <p>Area up to <b>55</b> m2</p>
                                 </div>
-                            </div>
-                            <div class="c-features">
+                            </li>
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_sound.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p>Loudness <span>17-62</span> dB</p>
+                                    <p>Loudness <b>17-62</b> dB</p>
                                 </div>
-                            </div>
-                            <div class="c-features">
+                            </li>
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_sensor.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p>Sensors <span>PM2.5</span> & <span>LZO</span></p>
+                                    <p>Sensors <b>PM2.5</b> & <b>LZO</b></p>
                                 </div>
-                            </div>
-                            <div class="c-features">
+                            </li>
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_auto.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p><span>AUTO</span> mode</p>
+                                    <p><b>AUTO</b> mode</p>
                                 </div>
-                            </div>
-                            <div class="c-features">
+                            </li>
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_wifi.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p><span>WIFI</span> control</p>
+                                    <p><b>WIFI</b> control</p>
                                 </div>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
                 <div class="m-product">
@@ -485,50 +489,50 @@
                                     <sup class="c-price-box-currency">$</sup>1049
                                 </div>
                             </div>
-                                <button class="gradient"> <span class="m-product-button-icon"></span> BUY NOW</button>
+                                <button class="gradient"> <span class="icube-icon-cart-2"></span> BUY NOW</button>
                         </div>
-                        <div class="m-product-descriptions-features">
-                            <div class="c-features">
+                        <ul class="m-product-descriptions-features">
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_area.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p>Area up to <span>80</span> m2</p>
+                                    <p>Area up to <b>80</b> m2</p>
                                 </div>
-                            </div>
-                            <div class="c-features">
+                            </li>
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_sound.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p>Loudness <span>17-57</span> dB</p>
+                                    <p>Loudness <b>17-57</b> dB</p>
                                 </div>
-                            </div>
-                            <div class="c-features">
+                            </li>
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_sensor.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p>Sensors <span>PM2.5</span> & <span>LZO</span></p>
+                                    <p>Sensors <b>PM2.5</b> & <b>LZO</b></p>
                                 </div>
-                            </div>
-                            <div class="c-features">
+                            </li>
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_auto.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p><span>AUTO</span> mode</p>
+                                    <p><b>AUTO</b> mode</p>
                                 </div>
-                            </div>
-                            <div class="c-features">
+                            </li>
+                            <li class="c-features">
                                 <div class="c-features-image">
                                     <img src="assets/images/section_sixth/icon_wifi.png" alt="">
                                 </div>
                                 <div class="c-features-text">
-                                    <p><span>WIFI</span> control</p>
+                                    <p><b>WIFI</b> control</p>
                                 </div>
-                            </div>
-                        </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>    
@@ -538,30 +542,42 @@
                     <h1>Learn</h1>
                 </div>
                 <div class="v-seventh-panels">
-                    <div class="c-image-panel">
-                        <img src="assets/images/section_seventh/air_purifiers_ideal.png" alt="purifiers">
-                        <p class="c-image-panel-text">Air purifiers Ideal - German quality</p>
-                    </div>
-                    <div class="c-image-panel">
-                        <img src="assets/images/section_seventh/office_air_purifier.png" alt="air purifier in a office">
-                        <p class="c-image-panel-text">Office air purifier</p>
-                    </div>
-                    <div class="c-image-panel">
-                        <img src="assets/images/section_seventh/purifier_for_allergies.png" alt="a man with a handkerchief">
-                        <p class="c-image-panel-text">Air purifier for allergies</p>
-                    </div>
-                    <div class="c-image-panel">
-                        <img src="assets/images/section_seventh/purifier_for_children.png" alt="children in a circle holding hands">
-                        <p class="c-image-panel-text">Air purifier for children's room</p>
-                    </div>
-                    <div class="c-image-panel">
-                        <img src="assets/images/section_seventh/epa_hepa_ulpa.png" alt="purifier filters">
-                        <p class="c-image-panel-text">Type of filters - EPA, HEPA, ULPA</p>
-                    </div>
-                    <div class="c-image-panel">
-                        <img src="assets/images/section_seventh/technical_parameters_of_purifier.png" alt="a man is thinking">
-                        <p class="c-image-panel-text">Technical parameters of air purifiers </p>
-                    </div>
+                    <a class="c-image-panel" href="#">
+                        <div class="c-image-panel-box">
+                            <img src="assets/images/section_seventh/air_purifiers_ideal.png" alt="purifiers">
+                            <p class="c-image-panel-text">Air purifiers Ideal - German quality</p>
+                        </div>
+                    </a>
+                    <a class="c-image-panel" href="#">
+                        <div class="c-image-panel-box">
+                            <img src="assets/images/section_seventh/office_air_purifier.png" alt="air purifier in a office">
+                            <p class="c-image-panel-text">Office air purifier</p>
+                        </div>
+                    </a>
+                    <a class="c-image-panel" href="#">
+                        <div class="c-image-panel-box">
+                            <img src="assets/images/section_seventh/purifier_for_allergies.png" alt="a man with a handkerchief">
+                            <p class="c-image-panel-text">Air purifier for allergies</p>
+                        </div>
+                    </a>
+                    <a class="c-image-panel" href="#">
+                        <div class="c-image-panel-box">
+                            <img src="assets/images/section_seventh/purifier_for_children.png" alt="children in a circle holding hands">
+                            <p class="c-image-panel-text">Air purifier for children's room</p>
+                        </div>
+                    </a>
+                    <a class="c-image-panel" href="#">
+                        <div class="c-image-panel-box">
+                            <img src="assets/images/section_seventh/epa_hepa_ulpa.png" alt="purifier filters">
+                            <p class="c-image-panel-text">Type of filters - EPA, HEPA, ULPA</p>
+                        </div>
+                    </a>
+                    <a class="c-image-panel" href="#">
+                        <div class="c-image-panel-box">
+                            <img src="assets/images/section_seventh/technical_parameters_of_purifier.png" alt="a man is thinking">
+                            <p class="c-image-panel-text">Technical parameters of air purifiers </p>
+                        </div>
+                    </a>
                 </div>
         </section>
     </main>
@@ -572,34 +588,42 @@
                     <div class="v-footer-top-box-col">
                         <img class="v-footer-top-box-col-logo" src="assets/images/footer/airything-logo-footer.svg" alt="Airthing">
                         <div class="v-footer-top-box-col-social-media">
-                            <span class="fa fa-facebook-square"></span>
-                            <span class="fa fa-twitter-square"></span>
-                            <span class="fa fa-instagram"></span>
-                            <span class="fa fa-youtube-square"></span>
+                            <a href="#">
+                                <span class="icube-icon-facebook-square"></span>
+                            </a>
+                            <a href="#">
+                                <span class="icube-icon-twitter-square"></span>
+                            </a>
+                            <a href="#">
+                                <span class="icube-icon-instagram"></span>
+                            </a>
+                            <a href="#">
+                                <span class="icube-icon-youtube-square"></span>
+                            </a>
                         </div>
                     </div>
-                    <div class="v-footer-top-box-col">
-                        <p>IDEAL</p>
-                        <p>IDEAL AP 30 pro</p>
-                        <p>IDEAL AP 40 pro</p>
-                        <p>IDEAL AP 60 pro</p>
-                        <p>IDEAL AP 80 pro</p>
-                        <p>IDEAL AP 140 pro</p>
-                    </div>
-                    <div class="v-footer-top-box-col">
-                        <p>Get Help</p>
-                        <p>Order Status</p>
-                        <p>Shipping and Delivery</p>
-                        <p>Returns</p>
-                        <p>Privacy policy</p>
-                        <p>Terms</p>
-                    </div>
-                    <div class="v-footer-top-box-col">
-                        <p>About Us</p>
-                        <p>Learn</p>
-                        <p>FAQ</p>
-                        <p>Contact US</p>
-                    </div>
+                    <ul class="v-footer-top-box-col">
+                        <li><a href="#">IDEAL</a></li>
+                        <li><a href="#">IDEAL AP 30 pro</a></li>
+                        <li><a href="#">IDEAL AP 40 pro</a></li>
+                        <li><a href="#">IDEAL AP 60 pro</a></li>
+                        <li><a href="#">IDEAL AP 80 pro</a></li>
+                        <li><a href="#">IDEAL AP 140 pro</a></li>
+                        </ul>
+                    <ul class="v-footer-top-box-col">
+                        <li><a href="#">Get Help</a></li>
+                        <li><a href="#">Order Status</a></li>
+                        <li><a href="#">Shipping and Delivery</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Privacy policy</a></li>
+                        <li><a href="#">Terms</a></li>
+                    </ul>
+                    <ul class="v-footer-top-box-col">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Learn</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact US</a></li>
+                    </ul>
                 </div>
             </div>
         </div>

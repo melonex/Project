@@ -1,6 +1,6 @@
 .v-fourth {margin-top: 90px; width: 100%;}
 .v-fourth-title {margin-bottom: 20px; text-align: center;}
-.v-fourth-title h1 span {font-size: inherit; font-weight: 600;}
+.v-fourth-title h1 b {font-size: inherit; font-weight: 600;}
 
 .v-fourth-items-list {padding-top: 20px;padding-bottom: 50px; text-align: center;}
 .v-fourth-items-list-box {display: inline-block; max-width: 1355px;}
