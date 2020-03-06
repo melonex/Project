@@ -1,11 +1,11 @@
 .c-risk { vertical-align: bottom;}
-.c-risk-box{
+.c-risk .c-risk-box{
     display: inline-block; padding-top: 15px; padding-bottom: 15px; padding-left: 50px; 
     padding-right: 5px; position: relative;
 }
-.c-risk-box-text {display:inline-block; font-weight: 300;}
+.c-risk .c-risk-box .c-risk-box-text {display:inline-block; font-weight: 300;}
 
-.c-risk-box:before{
+.c-risk .c-risk-box:before{
     content: ""; display: block; width: 32px; height: 32px; 
     background-image: url("../../images/section_third/dislike.png"); background-repeat: no-repeat;
     background-position: center center; position: absolute; top:8px; left:10px;

@@ -1,0 +1,43 @@
+.m-second { width: 100%;}
+
+.m-second-question {padding-top: 50px;}
+.m-second-question-image {margin-left: auto; margin-right: auto;width:200px;}
+.m-second-question-text {margin-top: -110px ;margin-left: auto; margin-right: auto; margin-bottom: 50px; text-align: center;}
+.m-second-question-text h1 b {font-size: inherit; font-weight: 600;}
+
+.m-second-purifier {text-align: center;}
+.m-second-purifier img{display: inline-block; padding-bottom: 120px;}
+
+.m-second-pollutians{padding-bottom: 75px; text-align: center;}
+.m-second-pollutians-box {display: inline-block; max-width: 1355px;}
+.m-second-pollutians-box .c-img-txt-box {margin-left: 54px; margin-right: 4px;}
+.m-second-pollutians-box .c-img-txt-box .c-img-txt-box-description {margin-top: 20px;}
+.m-second-pollutians-box .c-img-txt-box .c-img-txt-box-description .c-img-txt-box-description-text {line-height: 30px; font-weight: 300;}
+
+@media screen and (max-width: 1366px) {
+    .m-second-question {padding-top: 30px;}
+    .m-second-question-image {width:120px;}
+    .m-second-question-text {margin-top: -75px;}
+    .m-second-question-text h1{font-size: 32px;}
+    .m-second-pollutians-box .c-img-txt-box {margin-left: 1vw; margin-right: 1vw;}
+    .m-second-pollutians-box .c-img-txt-box .c-img-txt-box-description {max-width: 13vw;}
+}
+@media screen and (max-width: 1024px) {
+    .m-second-pollutians-box {max-width: 600px;}
+    .m-second-pollutians-box .c-img-txt-box {margin-left: 1.8vw; margin-right: 1.8vw;}
+    .m-second-pollutians-box .c-img-txt-box .c-img-txt-box-description {max-width: 140px;}
+}
+@media screen and (max-width: 830px){
+    .m-second-question-text h1 {font-size: 28px;}
+}
+@media screen and (max-width: 500px) {
+    .m-second-question-text {margin-bottom: 0;}
+    .m-second-question-text h1 {font-size: 24px;}
+    .m-second-pollutians-box .c-img-txt-box {margin-left: 5.8vw; margin-right: 5.8vw;}
+    .m-second-pollutians-box .c-img-txt-box-description .c-img-txt-box-description-text {line-height: 22px;}
+}
+@media screen and (max-width: 370px){
+    .m-second-pollutians-box .c-img-txt-box {margin-left: 10px; margin-right: 10px;}
+    .m-second-pollutians-box .c-img-txt-box .c-img-txt-box-description {max-width: 125px;}
+    .m-second-pollutians-box .c-img-txt-box .c-img-txt-box-image {width: 100px;height: 100px;}
+}

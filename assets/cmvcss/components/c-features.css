@@ -1,7 +1,7 @@
 .c-features {
-    display:block; padding-top: 20px;padding-bottom: 15px;
-    border-bottom: 1px solid lightgrey;width:250px
+    display:block; padding-top: 20px; padding-bottom: 15px;
+    border-bottom: 1px solid lightgrey; width:250px
 }
-.c-features-image {float: left;}
-.c-features-text {padding-left: 50px;}
-.c-features-text p b { font-weight: 600;}
+.c-features .c-features-image {float: left;}
+.c-features .c-features-text {padding-left: 50px;}
+.c-features .c-features-text p b { font-weight: 600;}

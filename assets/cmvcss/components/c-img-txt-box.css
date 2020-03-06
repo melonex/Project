@@ -1,8 +1,14 @@
-.c-img-txt-box {display: inline-block; margin-left: 29px; margin-right: 29px; vertical-align: top;}
-.c-img-txt-box-image {
+.c-img-txt-box {
+    display: inline-block; margin-left: 29px; margin-right: 29px; vertical-align: top;
+}
+.c-img-txt-box .c-img-txt-box-image {
     display: block; margin-top: 35px;margin-left: auto; margin-right: auto; 
     padding-bottom: 5px; width:128px; height:128px;
 }
-.c-img-txt-box-description {max-width: 180px; text-align: center;}
-.c-img-txt-box-description-title {font-size: 1.1em;}
-.c-img-txt-box-description-text {font-weight: 400;}
+.c-img-txt-box .c-img-txt-box-description {max-width: 180px; text-align: center;}
+.c-img-txt-box .c-img-txt-box-description .c-img-txt-box-description-title {
+    font-size: 1.1em;
+}
+.c-img-txt-box .c-img-txt-box-description .c-img-txt-box-description-text {
+    font-weight: 400;
+}

@@ -1,9 +1,4 @@
-.flex-center {
-    display: flex;
-    height: inherit;
-    align-items: center;
-}
-
+.flex-center {display: flex; height: inherit; align-items: center;}
 .gradient {
     background: linear-gradient(45deg,#01b0ec 0%,#3a7aea 100%);
 }
@@ -16,4 +11,8 @@
 .bg-image-air{
     background-image: url("../images/footer/footer_air.png"); 
     background-repeat: no-repeat;background-position: center;
+}
+
+button.gradient:hover {
+    background: linear-gradient(45deg,#36bfec 0%,#5e8fe4 100%);
 }
