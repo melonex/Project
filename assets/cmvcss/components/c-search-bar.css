@@ -3,19 +3,19 @@
     position: relative;
 }
 .c-search-bar .c-search-bar-form .c-search-bar-form-input {
-    width: 150px; height: 44px; font-size: 1em; border-style: none;
+    position: relative;width: 150px; height: 44px; font-size: 1em; border-style: none; z-index: 1;background-color: #ffffff00;
 }
 .c-search-bar .c-search-bar-form .c-search-bar-form-icon {
     font-size: 24px; vertical-align: middle;
 }
 .c-search-bar .c-search-bar-form .c-search-bar-form-placeholder {
-    position: absolute; top: 11px; left:0; color:#9b9b9b; transition: top 0.4s; transition: font-size 0.3s;
+    position: absolute; transform: translateY(11px); left:0; color:#9b9b9b; transition: transform 0.4s, font-size 0.4s; 
 }
 
 /*pseudo*/
 .c-search-bar .c-search-bar-form .c-search-bar-form-placeholder:hover {cursor: text;}
 .c-search-bar .c-search-bar-form .c-search-bar-form-icon:hover {cursor: pointer;}
 .c-search-bar .c-search-bar-form .c-search-bar-form-input:focus + label,
-.c-search-bar .c-search-bar-form .c-search-bar-form-input:valid + label{
-    top:-3px; font-size: 12px; cursor: default;
+.c-search-bar .c-search-bar-form .c-search-bar-form-input:not(:focus):valid + label{
+    transform: translateY(-2px);font-size: 12px; cursor: default;
 }

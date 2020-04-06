@@ -1,684 +1,837 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>Airything - Best Air Purifiers</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
-    <link rel="stylesheet" type="text/css" href="assets/fonts/font-icube.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/base.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-search-bar.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-cart.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-certificate.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-img-txt-box.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-risk.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-text-list.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-product-name.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-price.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-features.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-image-panel.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-product.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-risk.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-first.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-second.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-third.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-fourth.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-fifth.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-sixth.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-seventh.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/views/v-header.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/views/v-footer.css">
-    <link rel="stylesheet" type="text/css" href="assets/cmvcss/utils.css">
-    <!--<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>-->
-</head>
-<body>
-    <header id="v-header">
-        <div class="v-header-box">
-            <a class="v-header-box-logo" href="#">
-                <img src="assets/images/header/airything-logo.svg" alt="Airything">
-            </a>
-                <span id="hamburger" class="icube-icon-bars is-hidden"></span>
-                <input id="hamburger-button" type="checkbox" role="button">
-            <nav id="menu" class="v-header-box-nav">
-                <ul>
-                    <li><a href="#">Air purifiers</a></li>
-                    <li><a href="#">Filters</a></li>
-                    <li><a href="#">Accessories</a></li>
-                    <li><a href="#">Quality</a></li>
-                    <li><a href="#">Learn</a></li>
-                    <li><a href="#">Contact</a></li>
-                </ul>
-            </nav> 
-            <div class="v-header-box-icons">
-                <div class="c-search-bar">
-                    <form class="c-search-bar-form">
-                        <input id="search-button" type="checkbox" role="button">
-                        <input id="search-label" class="c-search-bar-form-input" type="text" required>
-                        <label for="search-label" class="c-search-bar-form-placeholder">Search</label>
-                        <span class="c-search-bar-form-icon icube-icon-search-2"></span>
-                    </form>
-                </div>
-                <div class="v-header-box-icons-items">
-                    <a class="icube-icon-user-2" href="#"></a>
-                    <a class="icube-icon-cart-2" href="#">
-                        <div class="c-cart">
-                            <img class="c-cart-image is-hidden" src="assets/images/header/cart_iterator.png" alt="">
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div> 
-    </header>
-    <main id="v-home-page">
-        <section class="m-first">
-            <div class="m-first-box">
-                <div class="m-first-box-certificates">
-                    <div class="m-first-box-certificates-text">
-                        <div class="m-first-box-certificates-text-box">
-                            <h1>Breath <img src="assets/images/section_first/slogan_IDEAL.png" alt="IDEAL"> air</h1>
-                            <p>The best european quality. Guaranteed.<p>
-                            <p>IDEAL is setting new benchmarks for air purification.</p>
-                        </div>
+    <head>
+        <title>Airything - Best Air Purifiers</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/base.css">
+        <link rel="stylesheet" type="text/css" href="assets/fonts/font-icube.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-search-bar.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-sub-nav.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-certificate.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-img-txt-box.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-risk.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-text-list.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-product-name.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-price.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-features.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-image-panel.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-product.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-risk.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-slogan.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-pollution.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-diseases.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-care.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-characteristics.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-assortment.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-learn.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/views/v-header.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/views/v-footer.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/utils.css">
+        <!--<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>-->
+    </head>
+    <body>
+        <header id="v-header">
+            <div class="v-header-box">
+                <a class="v-header-box-logo" href="#">
+                    <img src="assets/images/header/airything-logo.svg" alt="Airything">
+                </a>
+                    <label id="hamburger" for="hamburger-button" class="icube-icon-bars is-hidden"></label>
+                    <input id="hamburger-button" type="checkbox" role="button">
+                <nav id="menu" class="v-header-box-nav">
+                    <div class="v-header-box-nav-header">
+                        <label for="hamburger-button" class="v-header-box-nav-header-close"><i class="fa fa-close"></i> Close</label>
                     </div>
-                    <div class="m-first-box-certificates-list">
-                        <ul class="m-first-box-certificates-list-box">
-                            <li class="c-certificate">
-                                <img class="c-certificate-image" src="assets/images/section_first/German_quality.png" alt="Premium quality made in Germany">
-                                <p class="c-certificate-text">Guaranteed Quality</p>
-                            </li>
-                            <li class="c-certificate">
-                                <img class="c-certificate-image" src="assets/images/section_first/Hygiene_certified.png" alt="Hygiene certified">
-                                <p class="c-certificate-text">Certyfikat Institut Schwarzkopf</p>
-                            </li>
-                            <li class="c-certificate">
-                                <img class="c-certificate-image" src="assets/images/section_first/Ecarf_institute.png" alt="ECARF Institute GmbH">
-                                <p class="c-certificate-text">Allergy-friendly Quality Tested</p>
-                            </li>
-                            <li class="c-certificate">
-                                <img class="c-certificate-image" src="assets/images/section_first/ISO_9001.png" alt="EQ ZERT ISO 9001 ZERTIFIZIERT">
-                                <p class="c-certificate-text">Environmental managment</p>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="m-second">
-            <div class="m-second-question">
-                <div class="m-second-question-image">
-                    <img src="assets/images/section_second/question_mark.png" alt="">
-                </div>
-                <div class="m-second-question-text">
-                    <h1><b>Which pollutants</b> do our purifiers remove?</h1>
-                </div>
-            </div>
-            <div class="m-second-pollutians">
-                <ul class="m-second-pollutians-box">
-                    <li class="c-img-txt-box">
-                        <div class="c-img-txt-box-image">
-                            <img src="assets/images/section_second/allergens.png" alt="">
-                        </div>
-                        <div class="c-img-txt-box-description">
-                            <p class="c-img-txt-box-description-title">Allergens</p>
-                            <p class="c-img-txt-box-description-text">(pollen, mites)</p>
-                        </div>
-                    </li>
-                    <li class="c-img-txt-box">
-                        <div class="c-img-txt-box-image">
-                            <img src="assets/images/section_second/cigarette_smoke.png" alt="">
-                        </div>
-                        <div class="c-img-txt-box-description">
-                            <p class="c-img-txt-box-description-title">Cigarette smoke</p>
-                            <p class="c-img-txt-box-description-text">& Household odors</p>
-                        </div>
-                    </li>
-                    <li class="c-img-txt-box">
-                        <div class="c-img-txt-box-image">
-                            <img src="assets/images/section_second/dust.png" alt="">
-                        </div>
-                        <div class="c-img-txt-box-description">
-                            <p class="c-img-txt-box-description-title">Dust</p>
-                            <p class="c-img-txt-box-description-text">(bacteria, mite droppings, parasite eggs, heavy metals)</p>
-                        </div>
-                    </li>
-                    <li class="c-img-txt-box">
-                        <div class="c-img-txt-box-image">
-                            <img src="assets/images/section_second/pm.png" alt="">
-                        </div>
-                        <div class="c-img-txt-box-description">
-                            <p class="c-img-txt-box-description-title">PM 2,5, PM5, PM10</p>
-                            <p class="c-img-txt-box-description-text">dusts</p>
-                        </div>
-                    </li>
-                    <li class="c-img-txt-box">
-                        <div class="c-img-txt-box-image">
-                            <img src="assets/images/section_second/volatile_oragnic.png" alt="">
-                        </div>
-                        <div class="c-img-txt-box-description">
-                            <p class="c-img-txt-box-description-title">Volatile organic compounds</p>
-                            <p class="c-img-txt-box-description-text"></p>
-                        </div>
-                    </li>
-                    <li class="c-img-txt-box">
-                        <div class="c-img-txt-box-image">
-                            <img src="assets/images/section_second/mikcroorganisms.png" alt="">
-                        </div>
-                        <div class="c-img-txt-box-description">
-                            <p class="c-img-txt-box-description-title">Microorganisms</p>
-                            <p class="c-img-txt-box-description-text">& viruses, bacteria, furngi</p>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="m-second-purifier">
-                <img src="assets/images/section_second/purifier.png" alt="IDEAL purifiers">
-            </div>
-        </section>
-        <section class="m-third">
-            <div class="m-third-risk-left-box">
-                <div class="flex-center">
-                    <div class="m-third-risk-left-box-content">
-                        <div class="m-risk">
-                            <div class="m-risk-title">
-                                <h1><b>Air pollution</b> increase the risk <br> of many <b>diseases:</b></h1>
+                    <ul class="v-header-box-nav-ul">
+                        <li class="v-header-box-nav-ul-li">
+                            <a class="v-header-box-nav-ul-li-a" href="#">Air purifiers</a>
+                            <label for="sub1" class="v-header-box-nav-ul-li-icon"></label>
+                            <input id="sub1" class="v-header-box-nav-ul-li-check" type="checkbox" role="button">
+                            <div class="c-sub-nav">
+                                <div class="c-sub-nav-header">
+                                    <div class="c-sub-nav-header-link">
+                                        <a class="c-sub-nav-header-link-content" href="#">Air purifiers</a>
+                                    </div>
+                                    <label for="sub1" class="icube-icon-undo c-sub-nav-header-return"> Return</label>
+                                </div>
+                                <ul>
+                                    <li class="c-sub-nav-li">
+                                        <a href="#">IDEAL AP 30 PRO</a>
+                                    </li>
+                                    <li class="c-sub-nav-li">
+                                        <a href="#">IDEAL AP 40 PRO</a>
+                                    </li>
+                                    <li class="c-sub-nav-li">
+                                        <a href="#">IDEAL AP 60 PRO</a>
+                                    </li>
+                                </ul>
                             </div>
-                            <ul class="m-risk-list">
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Cardiovascular diseases</p></div>
+                        </li>
+                        <li class="v-header-box-nav-ul-li">
+                            <a class="v-header-box-nav-ul-li-a" href="#">Filters</a>
+                        </li>
+                        <li class="v-header-box-nav-ul-li">
+                            <a class="v-header-box-nav-ul-li-a" href="#">Accessories</a>
+                            <label for="sub2" class="v-header-box-nav-ul-li-icon"></label>
+                            <input id="sub2" class="v-header-box-nav-ul-li-check" type="checkbox" role="button">
+                            <div class="c-sub-nav">
+                                <div class="c-sub-nav-header">
+                                    <div class="c-sub-nav-header-link">
+                                        <a class="c-sub-nav-header-link-content" href="#">Accessories</a>
+                                    </div>
+                                    <label for="sub2" class="icube-icon-undo c-sub-nav-header-return"> Return</label>
+                                </div>
+                                <ul>
+                                    <li class="c-sub-nav-li">
+                                        <a href="#">Sekcja A</a>
+                                    </li>
+                                    <li class="c-sub-nav-li">
+                                        <a href="#">Sekcja B</a>
+                                        <label for="sub3" class="c-sub-nav-li-icon"></label>
+                                        <input id="sub3" class="c-sub-nav-li-check" type="checkbox" role="button">
+                                        <div class="c-sub-nav">
+                                            <div class="c-sub-nav-header">
+                                                <div class="c-sub-nav-header-link">
+                                                    <a class="c-sub-nav-header-link-content" href="#">Sekcja B</a>
+                                                </div>
+                                                <label for="sub3" class="icube-icon-undo c-sub-nav-header-return"> Return</label>
+                                            </div>
+                                            <ul>
+                                                <li class="c-sub-nav-li">
+                                                    <a href="#">Podsekcja A</a>
+                                                </li>
+                                                <li class="c-sub-nav-li">
+                                                    <a href="#">Podsekcja B</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="c-sub-nav-li">
+                                        <a href="#">Sekcja C</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="v-header-box-nav-ul-li">
+                            <a class="v-header-box-nav-ul-li-a" href="#">Quality</a>
+                        </li>
+                        <li class="v-header-box-nav-ul-li">
+                            <a class="v-header-box-nav-ul-li-a" href="#">Learn</a>
+                        </li>
+                        <li class="v-header-box-nav-ul-li">
+                            <a class="v-header-box-nav-ul-li-a" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </nav> 
+                <div class="v-header-box-icons">
+                    <div class="c-search-bar">
+                        <form class="c-search-bar-form">
+                            <input id="search-button" type="checkbox" role="button">
+                            <input id="search-label" class="c-search-bar-form-input" type="text" required>
+                            <label for="search-label" class="c-search-bar-form-placeholder">Search</label>
+                            <span class="c-search-bar-form-icon icube-icon-search-2"></span>
+                        </form>
+                    </div>
+                    <div class="v-header-box-icons-items">
+                        <a class="icube-icon-user-2" href="#"></a>
+                        <a class="icube-icon-cart-2" href="#"></a>
+                    </div>
+                </div>
+                <div class="v-header-box-shadow"></div>
+            </div> 
+        </header>
+        <main id="v-home-page">
+            <section class="m-slogan">
+                <div class="m-slogan-box">
+                    <div class="m-slogan-box-certificates">
+                        <div class="m-slogan-box-certificates-text">
+                            <div class="m-slogan-box-certificates-text-box">
+                                <h1>Breath <img src="assets/images/section_first/slogan_IDEAL.png" alt="IDEAL"> air</h1>
+                                <p>The best european quality. Guaranteed.<p>
+                                <p>IDEAL is setting new benchmarks for air purification.</p>
+                            </div>
+                        </div>
+                        <div class="m-slogan-box-certificates-list">
+                            <ul class="m-slogan-box-certificates-list-box">
+                                <li class="c-certificate">
+                                    <img class="c-certificate-image" src="assets/images/section_first/German_quality.png" alt="Premium quality made in Germany">
+                                    <p class="c-certificate-text">Guaranteed Quality</p>
                                 </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Stroke</p></div>
+                                <li class="c-certificate">
+                                    <img class="c-certificate-image" src="assets/images/section_first/Hygiene_certified.png" alt="Hygiene certified">
+                                    <p class="c-certificate-text">Certyfikat Institut Schwarzkopf</p>
                                 </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Lung cancer</p></div>
+                                <li class="c-certificate">
+                                    <img class="c-certificate-image" src="assets/images/section_first/Ecarf_institute.png" alt="ECARF Institute GmbH">
+                                    <p class="c-certificate-text">Allergy-friendly Quality Tested</p>
                                 </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Alzheimer's disease</p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Asthma</p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Respiratory diseases</p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Allergies</p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Heart failure</p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Cough</p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Throat cancer</p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Conjunctivitis</p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Respiratory distress</p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Susceptibility to depression </p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Arterial hypertension</p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Laryngeal cancer</p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Runny nose</p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Myocardial infarction</p></div>
-                                </li>
-                                <li class="c-risk">
-                                    <div class="c-risk-box"><p class="c-risk-box-text">Problems with concentration</p></div>
+                                <li class="c-certificate">
+                                    <img class="c-certificate-image" src="assets/images/section_first/ISO_9001.png" alt="EQ ZERT ISO 9001 ZERTIFIZIERT">
+                                    <p class="c-certificate-text">Environmental managment</p>
                                 </li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="m-third-risk-right-box">
-                <div class="m-third-risk-right-box-shadow"></div>
-            </div>
-        </section>
-        <section class="m-fourth">
-            <div class="m-fourth-title">
-                <h1>Who <b>should care</b> about clean air?</h1>
-            </div>
-            <div class="m-fourth-items-list">
-                <div class="m-fourth-items-list-box">
-                    <div class="c-img-txt-box">
-                        <div class="c-img-txt-box-image">
-                            <img src="assets/images/section_fourth/children.png" alt="">
-                        </div>
-                        <div class="c-img-txt-box-description">
-                            <p class="c-img-txt-box-description-title">Children</p>
-                            <p class="c-img-txt-box-description-text">the developing respiratory system is particulary vulnerable to air pollution. Children growing up in polluted air are likely to have lower mental ability and more prone to depression and concentration problems. They are up to 5 times more susceptible to ADHD.</p>
-                        </div>
+            </section>
+            <section class="m-pollution">
+                <div class="m-pollution-question">
+                    <div class="m-pollution-question-image">
+                        <img src="assets/images/section_second/question_mark.png" alt="">
                     </div>
-                    <div class="c-img-txt-box">
-                        <div class="c-img-txt-box-image">
-                            <img src="assets/images/section_fourth/allergy_sufferers.png" alt="">
-                        </div>
-                        <div class="c-img-txt-box-description">
-                            <p class="c-img-txt-box-description-title">Allergy surferers</p>
-                            <p class="c-img-txt-box-description-text">alergies are extremely onerous. They make it harder to concentrate, cause coughing, conjunctivitis, rhinits and other ailments. Do you want to get rid of allergies? Remove the cause. Clean the air from allergens.</p>
-                        </div>
-                    </div>
-                    <div class="c-img-txt-box">
-                        <div class="c-img-txt-box-image">
-                            <img src="assets/images/section_fourth/pregnant_women.png" alt="">
-                        </div>
-                        <div class="c-img-txt-box-description">
-                            <p class="c-img-txt-box-description-title">Pregnant women</p>
-                            <p class="c-img-txt-box-description-text">it is particularly dangerous for the health and development of a child to inhale large amounts of health hazardous PM2,5 dusts, which quickly enter the bloodstream and are distributed throughout the entire body of the mother and child.</p>
-                        </div>
-                    </div>
-                    <div class="c-img-txt-box">
-                        <div class="c-img-txt-box-image">
-                            <img src="assets/images/section_fourth/employees.png" alt="">
-                        </div>
-                        <div class="c-img-txt-box-description">
-                            <p class="c-img-txt-box-description-title">Employees</p>
-                            <p class="c-img-txt-box-description-text">if employees complain of problems with concentration and sleepiness, it can be a result of polluted air in the workspace.</p>
-                        </div>
-                    </div>
-                    <div class="c-img-txt-box">
-                        <div class="c-img-txt-box-image">
-                            <img src="assets/images/section_fourth/older_people.png" alt="">
-                        </div>
-                        <div class="c-img-txt-box-description">
-                            <p class="c-img-txt-box-description-title">Older people</p>
-                            <p class="c-img-txt-box-description-text">air pollution in older people can accelerate cardiovascular and respiratory problems and even the progress of old age dementia.</p>
-                        </div>
-                    </div>
-                    <div class="c-img-txt-box">
-                        <div class="c-img-txt-box-image">
-                            <img src="assets/images/section_fourth/you_family.png" alt="">
-                        </div>
-                        <div class="c-img-txt-box-description">
-                            <p class="c-img-txt-box-description-title">You and your family</p>
-                            <p class="c-img-txt-box-description-text">remember that you have an influence on the quality of air you breathe in your home. You and your family deserve clean air!</p>
-                        </div>
+                    <div class="m-pollution-question-text">
+                        <h1><b>Which pollutants</b> do our purifiers remove?</h1>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="m-fifth">
-            <div class="m-fifth-content">
-                <div class="m-fifth-content-title">
-                    <div>
-                        <h1>You need a good air purifier</h1>
-                        <h1 class="gradient-text">What does it mean?</h1>
-                    </div>
-                    <div>
-                        <p>Air pollution is not always visible.</p><p> But its effects can be very serious.</p>
-                    </div>
-                </div>
-                <div class="m-fifth-content-text">
-                    <div class="c-text-list">
-                        <p class="c-text-list-title">1. Effective</p>
-                        <p class="c-text-list-text">removes all type of air pollutants, regardless of their size and orgin</p>
-                        <p class="c-text-list-title">2. Efficient</p>
-                        <p class="c-text-list-text">quickly filters the air</p>
-                        <p class="c-text-list-title">3. Quiet</p>
-                        <p class="c-text-list-text">the purifiers work where we work. A good cleaner is one that won't disturb you during your work, sleep or rest.</p>
-                        <p class="c-text-list-title">4. Durable</p>
-                        <p class=c-text-list-text>choose a device with a guarantee of reliability</p>
-                        <p class="c-text-list-title">5. Intuitive</p>
-                        <p class="c-text-list-text">quickly filters the air</p>
-                        <p class="c-text-list-title">6. Inexpensive to use</p>
-                        <p class="c-text-list-text">check how often filters need to be replaced and how much power the unit consumes.</p>
-                    </div>
-                    <button class="gradient">check air purifiers</button>
-                </div>
-            </div>
-        </section>
-        <div class="m-sixth">
-            <div class="m-sixth-product-list">
-                <div class="m-product">
-                    <div class="m-product-image">
-                        <span class="m-product-image-vertical-center"></span>
-                        <a href="#">
-                            <img src="assets/images/section_sixth/purifier_sale_1.png" alt="purifier AP 30">
-                        </a>
-                    </div>
-                    <div class="m-product-descriptions">
-                        <div class="m-product-descriptions-details"> 
-                            <div class="c-product-name">
-                                <p class="c-product-name-device">AIR PURIFIER</p>
-                                <a href="#" class="c-product-name-model">IDEAL AP 30 PRO</a>
+                <div class="m-pollution-pollutants">
+                    <ul class="m-pollution-pollutants-box">
+                        <li class="c-img-txt-box">
+                            <div class="c-img-txt-box-image">
+                                <img src="assets/images/section_second/allergens.png" alt="">
                             </div>
-                            <div class="m-product-descriptions-details-certificate">
-                                <img src="assets/images/section_sixth/made_germany.png" alt="made in Germany">
+                            <div class="c-img-txt-box-description">
+                                <p class="c-img-txt-box-description-title">Allergens</p>
+                                <p class="c-img-txt-box-description-text">(pollen, mites)</p>
                             </div>
-                            <div class="c-price">
-                                <div class="c-price-box">
-                                    <sup class="c-price-box-currency">$</sup>549
-                                </div>
+                        </li>
+                        <li class="c-img-txt-box">
+                            <div class="c-img-txt-box-image">
+                                <img src="assets/images/section_second/cigarette_smoke.png" alt="">
                             </div>
-                                <button class="gradient"> <span class="icube-icon-cart-2"></span>Buy Now</button>
-                        </div>
-                        <ul class="m-product-descriptions-features">
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_area.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p>Area up to <b>40</b> m2</p>
-                                </div>
-                            </li>
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_sound.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p>Loudness <b>17-45</b> dB</p>
-                                </div>
-                            </li>
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_sensor.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p>Sensors <b>PM2.5</b> & <b>LZO</b></p>
-                                </div>
-                            </li>
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_auto.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p><b>AUTO</b> mode</p>
-                                </div>
-                            </li>
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_wifi.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p><b>WIFI</b> control</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="m-product">
-                    <div class="m-product-image">
-                        <span class="m-product-image-vertical-center"></span>
-                        <a href="#">
-                            <img src="assets/images/section_sixth/purifier_sale_2.png" alt="purifier AP 40">
-                        </a>
-                    </div>
-                    <div class="m-product-descriptions">
-                        <div class="m-product-descriptions-details"> 
-                            <div class="c-product-name">
-                                <p class="c-product-name-device">AIR PURIFIER</p>
-                                <a href="#" class="c-product-name-model">IDEAL AP 40 PRO</a>
+                            <div class="c-img-txt-box-description">
+                                <p class="c-img-txt-box-description-title">Cigarette smoke</p>
+                                <p class="c-img-txt-box-description-text">& Household odors</p>
                             </div>
-                            <div class="m-product-descriptions-details-certificate">
-                                <img src="assets/images/section_sixth/made_germany.png" alt="made in Germany">
+                        </li>
+                        <li class="c-img-txt-box">
+                            <div class="c-img-txt-box-image">
+                                <img src="assets/images/section_second/dust.png" alt="">
                             </div>
-                            <div class="c-price">
-                                <div class="c-price-box">
-                                    <sup class="c-price-box-currency">$</sup>729
-                                </div>
+                            <div class="c-img-txt-box-description">
+                                <p class="c-img-txt-box-description-title">Dust</p>
+                                <p class="c-img-txt-box-description-text">(bacteria, mite droppings, parasite eggs, heavy metals)</p>
                             </div>
-                                <button class="gradient"> <span class="icube-icon-cart-2"></span> BUY NOW</button>
-                        </div>
-                        <ul class="m-product-descriptions-features">
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_area.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p>Area up to <b>55</b> m2</p>
-                                </div>
-                            </li>
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_sound.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p>Loudness <b>17-62</b> dB</p>
-                                </div>
-                            </li>
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_sensor.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p>Sensors <b>PM2.5</b> & <b>LZO</b></p>
-                                </div>
-                            </li>
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_auto.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p><b>AUTO</b> mode</p>
-                                </div>
-                            </li>
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_wifi.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p><b>WIFI</b> control</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="m-product">
-                    <div class="m-product-image">
-                        <span class="m-product-image-vertical-center"></span>
-                        <a href="#">
-                            <img src="assets/images/section_sixth/purifier_sale_3.png" alt="purifier AP 60">
-                        </a>
-                    </div>
-                    <div class="m-product-descriptions">
-                        <div class="m-product-descriptions-details"> 
-                            <div class="c-product-name">
-                                <p class="c-product-name-device">AIR PURIFIER</p>
-                                <a href="#" class="c-product-name-model">IDEAL AP 60 PRO</a>
+                        </li>
+                        <li class="c-img-txt-box">
+                            <div class="c-img-txt-box-image">
+                                <img src="assets/images/section_second/pm.png" alt="">
                             </div>
-                            <div class="m-product-descriptions-details-certificate">
-                                <img src="assets/images/section_sixth/made_germany.png" alt="made in Germany">
+                            <div class="c-img-txt-box-description">
+                                <p class="c-img-txt-box-description-title">PM 2,5, PM5, PM10</p>
+                                <p class="c-img-txt-box-description-text">dusts</p>
                             </div>
-                            <div class="c-price">
-                                <div class="c-price-box">
-                                    <sup class="c-price-box-currency">$</sup>1049
-                                </div>
+                        </li>
+                        <li class="c-img-txt-box">
+                            <div class="c-img-txt-box-image">
+                                <img src="assets/images/section_second/volatile_oragnic.png" alt="">
                             </div>
-                                <button class="gradient"> <span class="icube-icon-cart-2"></span> BUY NOW</button>
-                        </div>
-                        <ul class="m-product-descriptions-features">
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_area.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p>Area up to <b>80</b> m2</p>
-                                </div>
-                            </li>
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_sound.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p>Loudness <b>17-57</b> dB</p>
-                                </div>
-                            </li>
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_sensor.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p>Sensors <b>PM2.5</b> & <b>LZO</b></p>
-                                </div>
-                            </li>
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_auto.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p><b>AUTO</b> mode</p>
-                                </div>
-                            </li>
-                            <li class="c-features">
-                                <div class="c-features-image">
-                                    <img src="assets/images/section_sixth/icon_wifi.png" alt="">
-                                </div>
-                                <div class="c-features-text">
-                                    <p><b>WIFI</b> control</p>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>    
-        </div>
-        <section class="m-seventh">
-                <div class="m-seventh-title">
-                    <h1>Learn</h1>
-                </div>
-                <div class="m-seventh-panels">
-                    <a class="c-image-panel" href="#">
-                        <div class="c-image-panel-box">
-                            <img src="assets/images/section_seventh/air_purifiers_ideal.png" alt="purifiers">
-                            <div class="c-image-panel-box-text">
-                                <h3 class="c-image-panel-box-text-title">Air purifiers Ideal - German quality</h3>
-                                <div class="c-image-panel-box-text-description">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                </div>
+                            <div class="c-img-txt-box-description">
+                                <p class="c-img-txt-box-description-title">Volatile organic compounds</p>
+                                <p class="c-img-txt-box-description-text"></p>
                             </div>
-                            <div class="c-image-panel-box-shadow"></div>
-                        </div>
-                    </a>
-                    <a class="c-image-panel" href="#">
-                        <div class="c-image-panel-box">
-                            <img src="assets/images/section_seventh/office_air_purifier.png" alt="air purifier in a office">
-                            <div class="c-image-panel-box-text">
-                                <h3 class="c-image-panel-box-text-title">Office air purifier</h3>
-                                <div class="c-image-panel-box-text-description">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                </div>
+                        </li>
+                        <li class="c-img-txt-box">
+                            <div class="c-img-txt-box-image">
+                                <img src="assets/images/section_second/mikcroorganisms.png" alt="">
                             </div>
-                            <div class="c-image-panel-box-shadow"></div>
-                        </div>
-                    </a>
-                    <a class="c-image-panel" href="#">
-                        <div class="c-image-panel-box">
-                            <img src="assets/images/section_seventh/purifier_for_allergies.png" alt="a man with a handkerchief">
-                            <div class="c-image-panel-box-text">
-                                <h3 class="c-image-panel-box-text-title">Air purifier for allergies</h3>
-                                <div class="c-image-panel-box-text-description">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                </div>
+                            <div class="c-img-txt-box-description">
+                                <p class="c-img-txt-box-description-title">Microorganisms</p>
+                                <p class="c-img-txt-box-description-text">& viruses, bacteria, furngi</p>
                             </div>
-                            <div class="c-image-panel-box-shadow"></div>
-                        </div>
-                    </a>
-                    <a class="c-image-panel" href="#">
-                        <div class="c-image-panel-box">
-                            <img src="assets/images/section_seventh/purifier_for_children.png" alt="children in a circle holding hands">
-                            <div class="c-image-panel-box-text">
-                                <h3 class="c-image-panel-box-text-title">Air purifier for children's room</h3>
-                                <div class="c-image-panel-box-text-description">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                </div>
-                            </div>
-                            <div class="c-image-panel-box-shadow"></div>
-                        </div>
-                    </a>
-                    <a class="c-image-panel" href="#">
-                        <div class="c-image-panel-box">
-                            <img src="assets/images/section_seventh/epa_hepa_ulpa.png" alt="purifier filters">
-                            <div class="c-image-panel-box-text">
-                                <h3 class="c-image-panel-box-text-title">Type of filters - EPA, HEPA, ULPA</h3>
-                                <div class="c-image-panel-box-text-description">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                </div>
-                            </div>
-                            <div class="c-image-panel-box-shadow"></div>
-                        </div>
-                    </a>
-                    <a class="c-image-panel" href="#">
-                        <div class="c-image-panel-box">
-                            <img src="assets/images/section_seventh/technical_parameters_of_purifier.png" alt="a man is thinking">
-                            <div class="c-image-panel-box-text">
-                                <h3 class="c-image-panel-box-text-title">Technical parameters of air purifiers </h3>
-                                <div class="c-image-panel-box-text-description">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                                </div>
-                            </div>
-                            <div class="c-image-panel-box-shadow"></div>
-                        </div>
-                    </a>
-                </div>
-        </section>
-    </main>
-    <footer id="v-footer">
-        <div class="v-footer-top gradient">
-            <div class="bg-image-air">
-                <div class="v-footer-top-box">  
-                    <div class="v-footer-top-box-col">
-                        <img class="v-footer-top-box-col-logo" src="assets/images/footer/airything-logo-footer.svg" alt="Airthing">
-                        <div class="v-footer-top-box-col-social-media">
-                            <a href="#">
-                                <span class="icube-icon-facebook-square"></span>
-                            </a>
-                            <a href="#">
-                                <span class="icube-icon-twitter-square"></span>
-                            </a>
-                            <a href="#">
-                                <span class="icube-icon-instagram"></span>
-                            </a>
-                            <a href="#">
-                                <span class="icube-icon-youtube-square"></span>
-                            </a>
-                        </div>
-                    </div>
-                    <ul class="v-footer-top-box-col">
-                        <li><a href="#">IDEAL</a></li>
-                        <li><a href="#">IDEAL AP 30 pro</a></li>
-                        <li><a href="#">IDEAL AP 40 pro</a></li>
-                        <li><a href="#">IDEAL AP 60 pro</a></li>
-                        <li><a href="#">IDEAL AP 80 pro</a></li>
-                        <li><a href="#">IDEAL AP 140 pro</a></li>
-                        </ul>
-                    <ul class="v-footer-top-box-col">
-                        <li><a href="#">Get Help</a></li>
-                        <li><a href="#">Order Status</a></li>
-                        <li><a href="#">Shipping and Delivery</a></li>
-                        <li><a href="#">Returns</a></li>
-                        <li><a href="#">Privacy policy</a></li>
-                        <li><a href="#">Terms</a></li>
-                    </ul>
-                    <ul class="v-footer-top-box-col">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Learn</a></li>
-                        <li><a href="#">FAQ</a></li>
-                        <li><a href="#">Contact US</a></li>
+                        </li>
                     </ul>
                 </div>
-            </div>
-        </div>
-        <div class="v-footer-bottom">
-            <div class="v-footer-bottom-box">
-                <div class="v-footer-bottom-box-copyrights">
-                    <p>&copy; 2020 Airything.com Best Air Purifiers</p>
+                <div class="m-pollution-purifier">
+                    <img src="assets/images/section_second/purifier.png" alt="IDEAL purifiers">
                 </div>
-                <div class="v-footer-bottom-box-made-by">
-                    <p>realisation </p>
+            </section>
+            <section class="m-diseases">
+                <div class="m-diseases-risk-text-box">
+                    <div class="flex-center">
+                        <div class="m-diseases-risk-text-box-content">
+                            <div class="m-risk">
+                                <div class="m-risk-title">
+                                    <h1><b>Air pollution</b> increase the risk <br> of many <b>diseases:</b></h1>
+                                </div>
+                                <ul class="m-risk-list">
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Cardiovascular diseases</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Stroke</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Lung cancer</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Alzheimer's disease</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Asthma</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Respiratory diseases</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Allergies</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Heart failure</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Cough</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Throat cancer</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Conjunctivitis</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Respiratory distress</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Susceptibility to depression </p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Arterial hypertension</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Laryngeal cancer</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Runny nose</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Myocardial infarction</p>
+                                        </div>
+                                    </li>
+                                    <li class="c-risk">
+                                        <div class="c-risk-box">
+                                            <p class="c-risk-box-text">Problems with concentration</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="m-diseases-risk-img-box">
+                    <div class="m-diseases-risk-img-box-shadow"></div>
+                </div>
+            </section>
+            <section class="m-care">
+                <div class="m-care-title">
+                    <h1>Who <b>should care</b> about clean air?</h1>
+                </div>
+                <div class="m-care-items-list">
+                    <div class="m-care-items-list-box">
+                        <div class="c-img-txt-box">
+                            <div class="c-img-txt-box-image">
+                                <img src="assets/images/section_fourth/children.png" alt="">
+                            </div>
+                            <div class="c-img-txt-box-description">
+                                <p class="c-img-txt-box-description-title">Children</p>
+                                <p class="c-img-txt-box-description-text">the developing respiratory system is particulary vulnerable to air pollution. Children growing up in polluted air are likely to have lower mental ability and more prone to depression and concentration problems. They are up to 5 times more susceptible to ADHD.</p>
+                            </div>
+                        </div>
+                        <div class="c-img-txt-box">
+                            <div class="c-img-txt-box-image">
+                                <img src="assets/images/section_fourth/allergy_sufferers.png" alt="">
+                            </div>
+                            <div class="c-img-txt-box-description">
+                                <p class="c-img-txt-box-description-title">Allergy surferers</p>
+                                <p class="c-img-txt-box-description-text">alergies are extremely onerous. They make it harder to concentrate, cause coughing, conjunctivitis, rhinits and other ailments. Do you want to get rid of allergies? Remove the cause. Clean the air from allergens.</p>
+                            </div>
+                        </div>
+                        <div class="c-img-txt-box">
+                            <div class="c-img-txt-box-image">
+                                <img src="assets/images/section_fourth/pregnant_women.png" alt="">
+                            </div>
+                            <div class="c-img-txt-box-description">
+                                <p class="c-img-txt-box-description-title">Pregnant women</p>
+                                <p class="c-img-txt-box-description-text">it is particularly dangerous for the health and development of a child to inhale large amounts of health hazardous PM2,5 dusts, which quickly enter the bloodstream and are distributed throughout the entire body of the mother and child.</p>
+                            </div>
+                        </div>
+                        <div class="c-img-txt-box">
+                            <div class="c-img-txt-box-image">
+                                <img src="assets/images/section_fourth/employees.png" alt="">
+                            </div>
+                            <div class="c-img-txt-box-description">
+                                <p class="c-img-txt-box-description-title">Employees</p>
+                                <p class="c-img-txt-box-description-text">if employees complain of problems with concentration and sleepiness, it can be a result of polluted air in the workspace.</p>
+                            </div>
+                        </div>
+                        <div class="c-img-txt-box">
+                            <div class="c-img-txt-box-image">
+                                <img src="assets/images/section_fourth/older_people.png" alt="">
+                            </div>
+                            <div class="c-img-txt-box-description">
+                                <p class="c-img-txt-box-description-title">Older people</p>
+                                <p class="c-img-txt-box-description-text">air pollution in older people can accelerate cardiovascular and respiratory problems and even the progress of old age dementia.</p>
+                            </div>
+                        </div>
+                        <div class="c-img-txt-box">
+                            <div class="c-img-txt-box-image">
+                                <img src="assets/images/section_fourth/you_family.png" alt="">
+                            </div>
+                            <div class="c-img-txt-box-description">
+                                <p class="c-img-txt-box-description-title">You and your family</p>
+                                <p class="c-img-txt-box-description-text">remember that you have an influence on the quality of air you breathe in your home. You and your family deserve clean air!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="m-characteristics">
+                <div class="m-characteristics-content">
+                    <div class="m-characteristics-content-title">
+                        <div>
+                            <h1>You need a good air purifier</h1>
+                            <h1 class="gradient-text">What does it mean?</h1>
+                        </div>
+                        <div>
+                            <p>Air pollution is not always visible.</p><p> But its effects can be very serious.</p>
+                        </div>
+                    </div>
+                    <div class="m-characteristics-content-text">
+                        <div class="c-text-list">
+                            <p class="c-text-list-title">1. Effective</p>
+                            <p class="c-text-list-text">removes all type of air pollutants, regardless of their size and orgin</p>
+                            <p class="c-text-list-title">2. Efficient</p>
+                            <p class="c-text-list-text">quickly filters the air</p>
+                            <p class="c-text-list-title">3. Quiet</p>
+                            <p class="c-text-list-text">the purifiers work where we work. A good cleaner is one that won't disturb you during your work, sleep or rest.</p>
+                            <p class="c-text-list-title">4. Durable</p>
+                            <p class=c-text-list-text>choose a device with a guarantee of reliability</p>
+                            <p class="c-text-list-title">5. Intuitive</p>
+                            <p class="c-text-list-text">quickly filters the air</p>
+                            <p class="c-text-list-title">6. Inexpensive to use</p>
+                            <p class="c-text-list-text">check how often filters need to be replaced and how much power the unit consumes.</p>
+                        </div>
+                        <button class="gradient">check air purifiers</button>
+                    </div>
+                </div>
+            </section>
+            <div class="m-assortment">
+                <div class="m-assortment-product-list">
+                    <div class="m-product">
+                        <div class="m-product-image">
+                            <span class="m-product-image-vertical-center"></span>
+                            <a href="#">
+                                <img src="assets/images/section_sixth/purifier_sale_1.png" alt="purifier AP 30">
+                            </a>
+                        </div>
+                        <div class="m-product-descriptions">
+                            <div class="m-product-descriptions-details"> 
+                                <div class="c-product-name">
+                                    <p class="c-product-name-device">AIR PURIFIER</p>
+                                    <a href="#" class="c-product-name-model">IDEAL AP 30 PRO</a>
+                                </div>
+                                <div class="m-product-descriptions-details-certificate">
+                                    <img src="assets/images/section_sixth/made_germany.png" alt="made in Germany">
+                                </div>
+                                <div class="c-price">
+                                    <div class="c-price-box">
+                                        <sup class="c-price-box-currency">$</sup>549
+                                    </div>
+                                </div>
+                                    <button class="gradient"> <span class="icube-icon-cart-2"></span>Buy Now</button>
+                            </div>
+                            <ul class="m-product-descriptions-features">
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_area.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p>Area up to <b>40</b> m2</p>
+                                    </div>
+                                </li>
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_sound.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p>Loudness <b>17-45</b> dB</p>
+                                    </div>
+                                </li>
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_sensor.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p>Sensors <b>PM2.5</b> & <b>LZO</b></p>
+                                    </div>
+                                </li>
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_auto.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p><b>AUTO</b> mode</p>
+                                    </div>
+                                </li>
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_wifi.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p><b>WIFI</b> control</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="m-product">
+                        <div class="m-product-image">
+                            <span class="m-product-image-vertical-center"></span>
+                            <a href="#">
+                                <img src="assets/images/section_sixth/purifier_sale_2.png" alt="purifier AP 40">
+                            </a>
+                        </div>
+                        <div class="m-product-descriptions">
+                            <div class="m-product-descriptions-details"> 
+                                <div class="c-product-name">
+                                    <p class="c-product-name-device">AIR PURIFIER</p>
+                                    <a href="#" class="c-product-name-model">IDEAL AP 40 PRO</a>
+                                </div>
+                                <div class="m-product-descriptions-details-certificate">
+                                    <img src="assets/images/section_sixth/made_germany.png" alt="made in Germany">
+                                </div>
+                                <div class="c-price">
+                                    <div class="c-price-box">
+                                        <sup class="c-price-box-currency">$</sup>729
+                                    </div>
+                                </div>
+                                    <button class="gradient"> <span class="icube-icon-cart-2"></span> BUY NOW</button>
+                            </div>
+                            <ul class="m-product-descriptions-features">
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_area.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p>Area up to <b>55</b> m2</p>
+                                    </div>
+                                </li>
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_sound.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p>Loudness <b>17-62</b> dB</p>
+                                    </div>
+                                </li>
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_sensor.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p>Sensors <b>PM2.5</b> & <b>LZO</b></p>
+                                    </div>
+                                </li>
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_auto.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p><b>AUTO</b> mode</p>
+                                    </div>
+                                </li>
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_wifi.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p><b>WIFI</b> control</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="m-product">
+                        <div class="m-product-image">
+                            <span class="m-product-image-vertical-center"></span>
+                            <a href="#">
+                                <img src="assets/images/section_sixth/purifier_sale_3.png" alt="purifier AP 60">
+                            </a>
+                        </div>
+                        <div class="m-product-descriptions">
+                            <div class="m-product-descriptions-details"> 
+                                <div class="c-product-name">
+                                    <p class="c-product-name-device">AIR PURIFIER</p>
+                                    <a href="#" class="c-product-name-model">IDEAL AP 60 PRO</a>
+                                </div>
+                                <div class="m-product-descriptions-details-certificate">
+                                    <img src="assets/images/section_sixth/made_germany.png" alt="made in Germany">
+                                </div>
+                                <div class="c-price">
+                                    <div class="c-price-box">
+                                        <sup class="c-price-box-currency">$</sup>1049
+                                    </div>
+                                </div>
+                                    <button class="gradient"> <span class="icube-icon-cart-2"></span> BUY NOW</button>
+                            </div>
+                            <ul class="m-product-descriptions-features">
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_area.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p>Area up to <b>80</b> m2</p>
+                                    </div>
+                                </li>
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_sound.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p>Loudness <b>17-57</b> dB</p>
+                                    </div>
+                                </li>
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_sensor.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p>Sensors <b>PM2.5</b> & <b>LZO</b></p>
+                                    </div>
+                                </li>
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_auto.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p><b>AUTO</b> mode</p>
+                                    </div>
+                                </li>
+                                <li class="c-features">
+                                    <div class="c-features-image">
+                                        <img src="assets/images/section_sixth/icon_wifi.png" alt="">
+                                    </div>
+                                    <div class="c-features-text">
+                                        <p><b>WIFI</b> control</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+            <section class="m-learn">
+                    <div class="m-learn-title">
+                        <h1>Learn</h1>
+                    </div>
+                    <div class="m-learn-panels">
+                        <a class="c-image-panel" href="#">
+                            <div class="c-image-panel-box">
+                                <img src="assets/images/section_seventh/air_purifiers_ideal.png" alt="purifiers">
+                                <div class="c-image-panel-box-text">
+                                    <h3 class="c-image-panel-box-text-title">Air purifiers Ideal - German quality</h3>
+                                    <div class="c-image-panel-box-text-description">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="c-image-panel-box-shadow"></div>
+                            </div>
+                        </a>
+                        <a class="c-image-panel" href="#">
+                            <div class="c-image-panel-box">
+                                <img src="assets/images/section_seventh/office_air_purifier.png" alt="air purifier in a office">
+                                <div class="c-image-panel-box-text">
+                                    <h3 class="c-image-panel-box-text-title">Office air purifier</h3>
+                                    <div class="c-image-panel-box-text-description">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="c-image-panel-box-shadow"></div>
+                            </div>
+                        </a>
+                        <a class="c-image-panel" href="#">
+                            <div class="c-image-panel-box">
+                                <img src="assets/images/section_seventh/purifier_for_allergies.png" alt="a man with a handkerchief">
+                                <div class="c-image-panel-box-text">
+                                    <h3 class="c-image-panel-box-text-title">Air purifier for allergies</h3>
+                                    <div class="c-image-panel-box-text-description">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="c-image-panel-box-shadow"></div>
+                            </div>
+                        </a>
+                        <a class="c-image-panel" href="#">
+                            <div class="c-image-panel-box">
+                                <img src="assets/images/section_seventh/purifier_for_children.png" alt="children in a circle holding hands">
+                                <div class="c-image-panel-box-text">
+                                    <h3 class="c-image-panel-box-text-title">Air purifier for children's room</h3>
+                                    <div class="c-image-panel-box-text-description">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="c-image-panel-box-shadow"></div>
+                            </div>
+                        </a>
+                        <a class="c-image-panel" href="#">
+                            <div class="c-image-panel-box">
+                                <img src="assets/images/section_seventh/epa_hepa_ulpa.png" alt="purifier filters">
+                                <div class="c-image-panel-box-text">
+                                    <h3 class="c-image-panel-box-text-title">Type of filters - EPA, HEPA, ULPA</h3>
+                                    <div class="c-image-panel-box-text-description">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="c-image-panel-box-shadow"></div>
+                            </div>
+                        </a>
+                        <a class="c-image-panel" href="#">
+                            <div class="c-image-panel-box">
+                                <img src="assets/images/section_seventh/technical_parameters_of_purifier.png" alt="a man is thinking">
+                                <div class="c-image-panel-box-text">
+                                    <h3 class="c-image-panel-box-text-title">Technical parameters of air purifiers </h3>
+                                    <div class="c-image-panel-box-text-description">
+                                        <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="c-image-panel-box-shadow"></div>
+                            </div>
+                        </a>
+                    </div>
+            </section>
+        </main>
+        <footer id="v-footer">
+            <div class="v-footer-top gradient">
+                <div class="bg-image-air">
+                    <div class="v-footer-top-box">  
+                        <div class="v-footer-top-box-col">
+                            <img class="v-footer-top-box-col-logo" src="assets/images/footer/airything-logo-footer.svg" alt="Airthing">
+                            <div class="v-footer-top-box-col-social-media">
+                                <a href="#">
+                                    <span class="icube-icon-facebook-square"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="icube-icon-twitter-square"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="icube-icon-instagram"></span>
+                                </a>
+                                <a href="#">
+                                    <span class="icube-icon-youtube-square"></span>
+                                </a>
+                            </div>
+                        </div>
+                        <ul class="v-footer-top-box-col">
+                            <li>
+                                <a href="#">IDEAL</a>
+                            </li>
+                            <li>
+                                <a href="#">IDEAL AP 30 pro</a>
+                            </li>
+                            <li>
+                                <a href="#">IDEAL AP 40 pro</a>
+                            </li>
+                            <li>
+                                <a href="#">IDEAL AP 60 pro</a>
+                            </li>
+                            <li>
+                                <a href="#">IDEAL AP 80 pro</a>
+                            </li>
+                            <li>
+                                <a href="#">IDEAL AP 140 pro</a>
+                            </li>
+                        </ul>
+                        <ul class="v-footer-top-box-col">
+                            <li>
+                                <a href="#">Get Help</a>
+                            </li>
+                            <li>
+                                <a href="#">Order Status</a>
+                            </li>
+                            <li>
+                                <a href="#">Shipping and Delivery</a>
+                            </li>
+                            <li>
+                                <a href="#">Returns</a>
+                            </li>
+                            <li>
+                                <a href="#">Privacy policy</a>
+                            </li>
+                            <li>
+                                <a href="#">Terms</a>
+                            </li>
+                        </ul>
+                        <ul class="v-footer-top-box-col">
+                            <li>
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <a href="#">Learn</a>
+                            </li>
+                            <li>
+                                <a href="#">FAQ</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact US</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
-</body>
+            <div class="v-footer-bottom">
+                <div class="v-footer-bottom-box">
+                    <div class="v-footer-bottom-box-copyrights">
+                        <p>&copy; 2020 Airything.com Best Air Purifiers</p>
+                    </div>
+                    <div class="v-footer-bottom-box-made-by">
+                        <p>realisation </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>

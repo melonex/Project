@@ -1,0 +1,95 @@
+.m-pollution { width: 100%;}
+
+.m-pollution .m-pollution-question {padding-top: 50px;}
+.m-pollution .m-pollution-question .m-pollution-question-image {
+    margin-left: auto; margin-right: auto; width:200px;
+}
+.m-pollution .m-pollution-question .m-pollution-question-text {
+    margin-top: -110px; margin-left: auto; margin-right: auto; margin-bottom: 50px;
+    text-align: center;
+}
+.m-pollution .m-pollution-question .m-pollution-question-text h1 b {
+    font-size: inherit; font-weight: 600;
+}
+
+.m-pollution .m-pollution-purifier {text-align: center;}
+.m-pollution .m-pollution-purifier img{
+    display: inline-block; padding-bottom: 120px;
+}
+
+.m-pollution .m-pollution-pollutants{padding-bottom: 75px; text-align: center;}
+.m-pollution .m-pollution-pollutants .m-pollution-pollutants-box {
+    display: inline-block; max-width: 1355px;
+}
+.m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box {
+    margin-left: 54px; margin-right: 4px;
+}
+.m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box .c-img-txt-box-description {
+    margin-top: 20px;
+}
+.m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box .c-img-txt-box-description .c-img-txt-box-description-text {
+    line-height: 30px; font-weight: 300;
+}
+
+@media screen and (max-width: 1366px) {
+    .m-pollution .m-pollution-question {padding-top: 30px;}
+    .m-pollution .m-pollution-question .m-pollution-question-image {width:120px;}
+    .m-pollution .m-pollution-question .m-pollution-question-text {margin-top: -75px;}
+    .m-pollution .m-pollution-question .m-pollution-question-text h1{
+        font-size: 32px; padding: 0 15px;
+    }
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box {
+        margin-left: 1vw; margin-right: 1vw;
+    }
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box .c-img-txt-box-description {
+        max-width: 13vw;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .m-pollution .m-pollution-question {padding-top: 15px;}
+    .m-pollution .m-pollution-purifier img {padding-bottom: 60px;}
+    .m-pollution .m-pollution-pollutants {padding-bottom: 30px;}
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box {max-width: 90%;}
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box {
+        margin-left: 3%; margin-right: 3%;
+    }
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box .c-img-txt-box-description {
+        max-width: 21.484375vw; width: 21.484375vw;
+    }
+}
+@media screen and (max-width: 830px){
+    .m-pollution .m-pollution-question .m-pollution-question-text h1 {font-size: 28px;}
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box .c-img-txt-box-description .c-img-txt-box-description-text {
+        line-height: 26px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box {
+        margin-left: 3%; margin-right: 3%;
+    }
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box .c-img-txt-box-description {
+        max-width: 33.33333333333333vw; width: 33.33333333333333vw;
+    }
+}
+@media screen and (max-width: 500px) {
+    .m-pollution .m-pollution-question .m-pollution-question-text {margin-bottom: 0;}
+    .m-pollution .m-pollution-question .m-pollution-question-text h1 {font-size: 24px;}
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box {max-width: 100%;}
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box {
+        margin-left: 8px; margin-right: 8px;
+    }
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box .c-img-txt-box-description {
+        max-width: 40vw; width: 40vw;
+    }
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box-description .c-img-txt-box-description-text {
+        line-height: 22px;
+    }
+}
+@media screen and (max-width: 370px){
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box {
+        margin-left: 10px; margin-right: 10px;
+    }
+    .m-pollution .m-pollution-pollutants .m-pollution-pollutants-box .c-img-txt-box .c-img-txt-box-image {
+        width: 100px; height: 100px;
+    }
+}

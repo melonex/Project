@@ -1,0 +1,50 @@
+.m-diseases {display: inline-block; padding-bottom: 0px; width: 100%; min-height:705px;}
+.m-diseases-risk-text-box {
+    display: flex; width: 50%; min-height:705px; float: left;justify-content: flex-end;
+}
+.m-diseases-risk-text-box-content {display:inline-block; padding-right: 20px; vertical-align: middle;}
+.m-diseases-risk-img-box {
+    display: block; width: 50%; height:705px; max-width: 960px; float: left;
+    background-image: url("../../images/section_third/humans.png"); 
+    background-repeat: no-repeat;  background-size: cover; background-position: center center;
+}
+.m-diseases-risk-text-box .flex-center {justify-content: flex-end;}
+
+@media screen and (max-width: 1366px){
+    .m-diseases-risk-text-box-content .m-risk .m-risk-title h1 {font-size: 32px;}
+}
+@media screen and (max-width: 1340px) {
+    .m-diseases-risk-text-box-content .m-risk .m-risk-list .c-risk .c-risk-image{
+        margin-left:12px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .m-diseases-risk-img-box {width: 40%;}
+    .m-diseases-risk-text-box {width: 60%;}
+}
+@media screen and (max-width: 980px) {
+    .m-diseases-risk-text-box-content .m-risk .m-risk-list .c-risk .c-risk-box .c-risk-box-text {
+        font-size: 1.15em;
+    }
+}
+@media screen and (max-width: 830px){
+    .m-diseases,
+    .m-diseases-risk-text-box {min-height: 650px;}
+    .m-diseases-risk-text-box {display:block; width:100%;}
+    .m-diseases-risk-img-box {height: 650px; width:0px;}
+    .m-diseases-risk-text-box .flex-center {justify-content: center;}
+    .m-diseases-risk-text-box-content{padding-right: 0;}
+    .m-diseases-risk-text-box-content .m-risk .m-risk-title {margin-bottom: 20px;}
+    .m-diseases-risk-text-box-content .m-risk .m-risk-title h1{font-size: 28px;}
+    .m-diseases-risk-text-box-content .m-risk .m-risk-list{padding-left: 20px;}
+}
+@media screen and (max-width: 500px){
+    .m-diseases-risk-text-box .flex-center{display: block;}
+    .m-diseases-risk-text-box-content .m-risk .m-risk-title h1{
+        padding: 0 20px; font-size: 24px;
+    }
+    .m-diseases-risk-text-box-content .m-risk .m-risk-list{padding-left: 10px; column-count: 1;}  
+    .m-diseases-risk-text-box-content .m-risk .m-risk-list .c-risk .c-risk-box{
+        display: inline-block; width:100%;
+    }  
+}

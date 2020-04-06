@@ -1,0 +1,128 @@
+.m-characteristics {
+     display: inline-block; margin-top: 100px; width: 100%; min-height: 800px; 
+     background-color: #f3fbfd;
+     background-image: url("../../images/section_fifth/purifier_back.png"); 
+     background-repeat: no-repeat; background-position: left bottom;
+}
+.m-characteristics .m-characteristics-content {display: block;}
+.m-characteristics .m-characteristics-content .m-characteristics-content-title,
+.m-characteristics .m-characteristics-content .m-characteristics-content-image,
+.m-characteristics .m-characteristics-content .m-characteristics-content-text {
+     display: inline-block; margin-top: 75px;
+}
+
+.m-characteristics .m-characteristics-content .m-characteristics-content-image {
+     margin-left: 2%; width: 25px;
+}
+.m-characteristics .m-characteristics-content .m-characteristics-content-text {
+     padding-left: 55px; width:600px; vertical-align: top;
+}
+.m-characteristics .m-characteristics-content .m-characteristics-content-text .c-text-list p {
+     padding-left: 55px; position: relative;
+}
+.m-characteristics .m-characteristics-content .m-characteristics-content-text button {
+     margin-top: 20px;margin-left: 55px;margin-right: 30px; padding-top: 10px; 
+     padding-bottom: 10px; width: 270px; background-color: #20a7f7;color:white;
+     font-size: 20px;
+}
+.m-characteristics .m-characteristics-content .m-characteristics-content-title {
+     width:47%; text-align: right; vertical-align: top;
+}
+.m-characteristics .m-characteristics-content .m-characteristics-content-title h1{
+     font-size: 32px; font-weight: 300;line-height: 44px;
+}
+.m-characteristics .m-characteristics-content .m-characteristics-content-title p {
+     margin-bottom: 10px;font-size: 20px; font-weight: 300;
+}
+.m-characteristics .m-characteristics-content .m-characteristics-content-title div {
+     margin-bottom: 30px;
+}
+
+/*pseudo*/
+.m-characteristics .m-characteristics-content .m-characteristics-content-title h1:nth-child(2) {
+     color:#2a96f2; font-size: 35px; font-weight: 600;
+}
+.m-characteristics .m-characteristics-content .m-characteristics-content-text .c-text-list .c-text-list-title:before {
+     content: ""; display: block; width: 8px; height: 8px; border-radius: 50%; 
+     background-color: #727272; position: absolute; left: 0; top: 15px;  
+}
+.m-characteristics .m-characteristics-content .m-characteristics-content-text .c-text-list .c-text-list-text:not(:last-child):before {
+     content: ""; display: block; width: 3px; height: calc(100% + 7px);
+     background-color: #727272; position: absolute; left: 2px; top: 0px;
+}
+
+@media screen and (max-width: 1470px) {
+     .m-characteristics {background-size: 130%,130%;}
+}
+@media screen and (max-width: 1366px) {
+     .m-characteristics .m-characteristics-content .m-characteristics-content-title h1 {
+          font-size: 28px;
+     }
+     .m-characteristics .m-characteristics-content .m-characteristics-content-text {
+          width: 45%;
+     }
+     .m-characteristics .m-characteristics-content .m-characteristics-content-text .c-text-list .c-text-list-title {
+          font-size:22px;
+     }
+     .m-characteristics .m-characteristics-content .m-characteristics-content-text .c-text-list .c-text-list-text {
+          font-size:18px;
+     }
+     
+     /*pseudo*/
+     .m-characteristics .m-characteristics-content .m-characteristics-content-title h1:nth-child(2) {
+          font-size: 30px;
+     }
+}
+@media screen and (max-width: 1030px) {
+     .m-characteristics {margin-top: 20px;}
+}
+@media screen and (max-width: 830px) {
+     .m-characteristics {background-image: none;}
+     .m-characteristics .m-characteristics-content .m-characteristics-content-title {
+          margin-top: 20px;
+     }
+     .m-characteristics .m-characteristics-content .m-characteristics-content-title div {
+          margin-bottom: 15px;
+     }
+     .m-characteristics .m-characteristics-content .m-characteristics-content-text button {
+          width: 230px;
+     }
+}
+@media screen and (max-width: 700px) {
+     .m-characteristics {margin-top: 0;}
+     .m-characteristics .m-characteristics-content .m-characteristics-content-title {
+          padding: 0 10px; width: 100%; text-align: center;
+     }
+     .m-characteristics .m-characteristics-content .m-characteristics-content-title p {
+          margin-bottom: 5px; font-size: 18px;
+     }
+     .m-characteristics .m-characteristics-content .m-characteristics-content-title h1 {
+          font-size: 24px; line-height: 33px;
+     }
+     .m-characteristics .m-characteristics-content .m-characteristics-content-text {
+          margin-top: 30px; padding-left: 25px; width: 75%;
+     }
+     .m-characteristics .m-characteristics-content .m-characteristics-content-text button {
+          margin-left: 30px; margin-right: 0;  width: 88%;
+     }
+     .m-characteristics .m-characteristics-content .m-characteristics-content-text .c-text-list p {
+          padding-left: 35px;
+     }
+
+
+     /*pseudo*/
+     .m-characteristics .m-characteristics-content .m-characteristics-content-title h1:nth-child(2) {
+          font-size: 26px;
+     }
+}
+@media screen and (max-width: 500px) {
+     .m-characteristics .m-characteristics-content .m-characteristics-content-text {
+          margin-top: 30px; width: 90%;
+     }
+     .m-characteristics .m-characteristics-content .m-characteristics-content-text .c-text-list .c-text-list-title {
+          font-size: 20px;
+     }
+     .m-characteristics .m-characteristics-content .m-characteristics-content-text .c-text-list .c-text-list-text {
+          font-size: 16px;
+     }
+}

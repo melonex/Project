@@ -1,0 +1,49 @@
+.c-sub-nav{
+    display: none; background-color: white; float:left; width:auto;
+    min-width:100%; box-shadow: 0px 1px 5px 1px #00000033; 
+    position: absolute; top: 90px; left:0px; z-index:3;
+}
+.c-sub-nav .c-sub-nav-header {
+    display: none; width:100%; border-bottom: 1px solid lightgrey;
+}
+.c-sub-nav .c-sub-nav-header .c-sub-nav-header-return {
+    padding-right: 20px; line-height: 75px; width: 50%; text-align: right;
+    text-transform: uppercase;
+}
+.c-sub-nav .c-sub-nav-header .c-sub-nav-header-link {
+    display: flex; width: 50%; height: 75px; align-items: center; 
+    float: left;
+}
+.c-sub-nav .c-sub-nav-header .c-sub-nav-header-link .c-sub-nav-header-link-content {
+    display: inline-block; margin: 0;padding-top: 15px; padding-bottom: 15px;
+    padding-left: 20px; text-decoration: none; line-height: normal; 
+    width: 100%; color: #2d2d2d;
+}
+.c-sub-nav ul .c-sub-nav-li{
+    display: block; float: none; white-space:nowrap; clear:both; 
+    position: relative;
+}
+.c-sub-nav ul .c-sub-nav-li .c-sub-nav-li-icon {
+    display: inline-flex; color:#2d2d2d;position: relative; top:2px; left: -20px;
+}
+.c-sub-nav ul .c-sub-nav-li .c-sub-nav-li-check {display: block;}
+.c-sub-nav ul .c-sub-nav-li a {
+    display: inline-block; margin: 0; padding-left: 20px; padding-right: 20px;
+    text-align: center; text-decoration: none; color: #2d2d2d;
+    line-height: 50px; width: 100%;
+}
+
+/*pseudo*/
+.c-sub-nav ul .c-sub-nav-li .c-sub-nav-li-icon:hover {cursor: pointer;}
+.c-sub-nav ul .c-sub-nav-li .c-sub-nav-li-icon:before {
+    content: "\76";                     /* "\6f" */
+    margin: 0 auto;
+    font-family: "icube-font" !important;
+    font-style: normal !important;
+    font-weight: normal !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
