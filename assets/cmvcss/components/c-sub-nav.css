@@ -24,7 +24,7 @@
     position: relative;
 }
 .c-sub-nav ul .c-sub-nav-li .c-sub-nav-li-icon {
-    display: inline-flex; color:#2d2d2d;position: relative; top:2px; left: -20px;
+    display: inline-flex; color:#2d2d2d;position: relative; top:2px; left: -25px;
 }
 .c-sub-nav ul .c-sub-nav-li .c-sub-nav-li-check {display: block;}
 .c-sub-nav ul .c-sub-nav-li a {

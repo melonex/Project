@@ -1,6 +1,6 @@
 #v-header {
     width: 100%; background-color: white;box-shadow: 0px 2px 3px 0px #00000033;
-    position: absolute;
+    position: sticky; top: 0; z-index: 100;
 }
 #v-header .v-header-box {
     display: flex; margin: auto; padding-left: 40px; padding-right: 40px; height:90px;
@@ -15,7 +15,7 @@
 }
 #v-header .v-header-box .v-header-box-shadow {
     display: none; width:100vw; height: 100vh; background-color: #00000088;
-    position: fixed; top: 0; left: 0; z-index: 101;
+    border:none; position: fixed; top: 0; left: 0; z-index: 101;
 }
 
 #v-header .v-header-box .v-header-box-nav {
@@ -35,7 +35,7 @@
     display: none;
 }
 #v-header .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li .v-header-box-nav-ul-li-icon {
-    display: flex; margin-top: -20px; color:#2d2d2d;
+    display: flex; margin-top: -24px; color:#2d2d2d;
 }
 #v-header .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li .v-header-box-nav-ul-li-check {
     display: block;
@@ -116,25 +116,38 @@
 }
 @media screen and (min-width: 1030px){
     #v-header .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li:hover > .c-sub-nav {
-        display: block; opacity: 0; animation-name: dropDownSubNav; animation-duration: 1s; 
+        display: block; opacity: 0; animation-name: dropDownSubNav; animation-duration: 0.5s; 
         animation-fill-mode: forwards; animation-delay: 0.3s;
     }
     #v-header .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li .c-sub-nav ul li:hover > .c-sub-nav {
         display: block; top: 0; left: 100%; opacity: 0; animation-name: dropDownSubNav; 
-        animation-duration: 1s; animation-fill-mode: forwards; animation-delay: 0.3s;
+        animation-duration: 0.5s; animation-fill-mode: forwards; animation-delay: 0.3s;
     }
     #v-header .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li .c-sub-nav ul .c-sub-nav-li a:hover + .c-sub-nav-li-icon,
     #v-header .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li .v-header-box-nav-ul-li-a:hover + .v-header-box-nav-ul-li-icon {
         animation-name: hoverColorWhite; animation-duration: 1s; animation-fill-mode: forwards;
     }
+    
+    
+    #v-header.is-sticky .v-header-box {height: 65px;}
+    #v-header.is-sticky .v-header-box .v-header-box-logo {padding: 10px 0;}
+    #v-header.is-sticky .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li .v-header-box-nav-ul-li-a {
+        padding-bottom: 10px; line-height: 55px;
+    }
+    #v-header.is-sticky .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li .c-sub-nav {
+        top: 65px;
+    }
+    #v-header.is-sticky .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li .v-header-box-nav-ul-li-icon {
+        margin-top: -21px;
+    }
+    #v-header.is-sticky .v-header-box .v-header-box-icons {padding-top: 6px;}
 }
 @media screen and (max-width: 1030px) {
-    #v-header {position: fixed; left: 0; top: 0; z-index: 100;}
     #v-header .v-header-box .v-header-box-nav {
         display: block; width:40%; height: 100%; min-width: 240px;
         background-color: white; box-shadow: 0px 2px 3px 0px #000000ff; 
-        border-left: 1px solid lightgrey; position: fixed; top: 0; right: -500px; 
-        z-index: 102; transition: right 0.5s linear;
+        border-left: 1px solid lightgrey; position: fixed; top: 0; right: 0; transform: translateX(500px); 
+        z-index: 102; transition: transform 0.5s linear;
         
     }
     #v-header .v-header-box .v-header-box-nav .v-header-box-nav-header {
@@ -150,15 +163,15 @@
         display: inline-block; width: 80.5%; background-color: white; line-height: 55px;
     }
     #v-header .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li .v-header-box-nav-ul-li-icon {
-        display: flex; margin-top: 0; float: right; margin-right: 15px;
+        display: flex; margin-top: 0; float: right; margin-right: 20px;
     }
     #v-header .v-header-box .v-header-box-icons .v-header-box-icons-items {
         margin-right: 35px;
     }
 
     #v-header .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li .c-sub-nav{
-        display: block; width:40%; height: 100%; min-width: 240px; position: fixed; top: 0; 
-        left: unset; right: -500px; transition: right 0.5s linear;
+        display: block; width:100%; height: 100%; min-width: 240px; position: fixed; top: 0; 
+        left: unset; right: 0; transform: translateX(500px); transition: transform 0.5s linear;
     }
     #v-header .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li .c-sub-nav ul {
         position: relative; top: 0; height: calc(100% - 75px); overflow-y: auto;
@@ -170,7 +183,7 @@
         padding-left: 15px; padding-right: 15px; width: 80.5%;
     }
     #v-header .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li .c-sub-nav ul .c-sub-nav-li .c-sub-nav-li-icon {
-        display: block; margin-right: 15px; font-size: 22px; line-height: 75px; 
+        display: block; margin-right: 20px; font-size: 22px; line-height: 75px; 
         position: unset; float: right;
     }
 
@@ -185,10 +198,10 @@
         visibility: hidden;
     }
     #v-header .v-header-box .v-header-box-nav .v-header-box-nav-ul .v-header-box-nav-ul-li input[type=checkbox]:checked + .c-sub-nav { 
-        right: 0px;
+        transform: translateX(0px);
     }
     #hamburger-button[type=checkbox]:checked + #menu{
-        right: 0px;
+        transform: translateX(0px);
     }
     #hamburger-button[type=checkbox]:checked ~ .v-header-box-shadow{
         display: block;
@@ -200,14 +213,18 @@
         padding-left: 10px; border:none;
     }
     #v-header .v-header-box .v-header-box-icons .c-search-bar {margin-right: 0; border: none;}
-    #v-header .v-header-box .v-header-box-icons .c-search-bar-form-input {
-        display: none; background-color: white; padding-left: 20px; padding-right: 20px;
+    #v-header .v-header-box .v-header-box-icons .c-search-bar .c-search-bar-form div{
+        display: inline-flex; width: 100vw;
+    }
+    #v-header .v-header-box .v-header-box-icons .c-search-bar .c-search-bar-form div .c-search-bar-form-input {
+        background-color: white; padding-left: 20px; padding-right: 20px;
         width:100%;font-size: 20px; border-top: 1px solid lightgrey;
-        box-shadow: 0px 2px 3px 0px #00000033; position: fixed; top: 74px; left: 0px;
+        box-shadow: 0px 2px 3px 0px #00000033;
     }
     #v-header .v-header-box .v-header-box-icons .c-search-bar-form-placeholder {
-        visibility: hidden; top:75px; left: 20px; position: fixed; z-index: 2;
+        visibility: hidden; left: 20px; z-index: 2;
     }
+    
     #hamburger {top:25px;}
     #search-button {display: block;}
 
@@ -216,10 +233,19 @@
     #v-header .v-header-box .v-header-box-icons .c-search-bar .c-search-bar-form .c-search-bar-form-input:valid + .c-search-bar-form-placeholder{
         display: none;
     }
-    #search-button[type=checkbox]:checked + input[type=text]{
+    #search-button[type=checkbox]:not(:checked) + div{
+        position: fixed; top: 0; left:0; opacity: 0; z-index: -1;
+    }
+    #search-button[type=checkbox]:checked ~ .c-search-bar-form-uncheck{
         display: block;
     }
-    #search-button[type=checkbox]:checked ~ .c-search-bar-form-placeholder{
+    #search-button[type=checkbox]:not(:checked) ~ .c-search-bar-form-uncheck{
+        display: none;
+    }
+    #search-button[type=checkbox]:checked + div{
+        position: fixed; top: 74px; left: 0; opacity: 1; z-index: 2;
+    }
+    #search-button[type=checkbox]:checked ~ div .c-search-bar-form-placeholder{
         visibility: visible;
     }
 }

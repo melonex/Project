@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="assets/cmvcss/base.css">
         <link rel="stylesheet" type="text/css" href="assets/fonts/font-icube.css">
+        <link rel="stylesheet" type="text/css" href="assets/cmvcss/utils.css">
         <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-search-bar.css">
         <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-sub-nav.css">
         <link rel="stylesheet" type="text/css" href="assets/cmvcss/components/c-certificate.css">
@@ -28,8 +29,7 @@
         <link rel="stylesheet" type="text/css" href="assets/cmvcss/modules/m-learn.css">
         <link rel="stylesheet" type="text/css" href="assets/cmvcss/views/v-header.css">
         <link rel="stylesheet" type="text/css" href="assets/cmvcss/views/v-footer.css">
-        <link rel="stylesheet" type="text/css" href="assets/cmvcss/utils.css">
-        <!--<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>-->
+        <script src="assets/js/nav.js"></script>
     </head>
     <body>
         <header id="v-header">
@@ -37,99 +37,105 @@
                 <a class="v-header-box-logo" href="#">
                     <img src="assets/images/header/airything-logo.svg" alt="Airything">
                 </a>
+                <form id="nav-form">
                     <label id="hamburger" for="hamburger-button" class="icube-icon-bars is-hidden"></label>
                     <input id="hamburger-button" type="checkbox" role="button">
-                <nav id="menu" class="v-header-box-nav">
-                    <div class="v-header-box-nav-header">
-                        <label for="hamburger-button" class="v-header-box-nav-header-close"><i class="fa fa-close"></i> Close</label>
-                    </div>
-                    <ul class="v-header-box-nav-ul">
-                        <li class="v-header-box-nav-ul-li">
-                            <a class="v-header-box-nav-ul-li-a" href="#">Air purifiers</a>
-                            <label for="sub1" class="v-header-box-nav-ul-li-icon"></label>
-                            <input id="sub1" class="v-header-box-nav-ul-li-check" type="checkbox" role="button">
-                            <div class="c-sub-nav">
-                                <div class="c-sub-nav-header">
-                                    <div class="c-sub-nav-header-link">
-                                        <a class="c-sub-nav-header-link-content" href="#">Air purifiers</a>
-                                    </div>
-                                    <label for="sub1" class="icube-icon-undo c-sub-nav-header-return"> Return</label>
-                                </div>
-                                <ul>
-                                    <li class="c-sub-nav-li">
-                                        <a href="#">IDEAL AP 30 PRO</a>
-                                    </li>
-                                    <li class="c-sub-nav-li">
-                                        <a href="#">IDEAL AP 40 PRO</a>
-                                    </li>
-                                    <li class="c-sub-nav-li">
-                                        <a href="#">IDEAL AP 60 PRO</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="v-header-box-nav-ul-li">
-                            <a class="v-header-box-nav-ul-li-a" href="#">Filters</a>
-                        </li>
-                        <li class="v-header-box-nav-ul-li">
-                            <a class="v-header-box-nav-ul-li-a" href="#">Accessories</a>
-                            <label for="sub2" class="v-header-box-nav-ul-li-icon"></label>
-                            <input id="sub2" class="v-header-box-nav-ul-li-check" type="checkbox" role="button">
-                            <div class="c-sub-nav">
-                                <div class="c-sub-nav-header">
-                                    <div class="c-sub-nav-header-link">
-                                        <a class="c-sub-nav-header-link-content" href="#">Accessories</a>
-                                    </div>
-                                    <label for="sub2" class="icube-icon-undo c-sub-nav-header-return"> Return</label>
-                                </div>
-                                <ul>
-                                    <li class="c-sub-nav-li">
-                                        <a href="#">Sekcja A</a>
-                                    </li>
-                                    <li class="c-sub-nav-li">
-                                        <a href="#">Sekcja B</a>
-                                        <label for="sub3" class="c-sub-nav-li-icon"></label>
-                                        <input id="sub3" class="c-sub-nav-li-check" type="checkbox" role="button">
-                                        <div class="c-sub-nav">
-                                            <div class="c-sub-nav-header">
-                                                <div class="c-sub-nav-header-link">
-                                                    <a class="c-sub-nav-header-link-content" href="#">Sekcja B</a>
-                                                </div>
-                                                <label for="sub3" class="icube-icon-undo c-sub-nav-header-return"> Return</label>
-                                            </div>
-                                            <ul>
-                                                <li class="c-sub-nav-li">
-                                                    <a href="#">Podsekcja A</a>
-                                                </li>
-                                                <li class="c-sub-nav-li">
-                                                    <a href="#">Podsekcja B</a>
-                                                </li>
-                                            </ul>
+                    <nav id="menu" class="v-header-box-nav">
+                        <div class="v-header-box-nav-header">
+                            <label for="hamburger-button" class="v-header-box-nav-header-close"><i class="fa fa-close"></i> Close</label>
+                        </div>
+                        <ul class="v-header-box-nav-ul">
+                            <li class="v-header-box-nav-ul-li">
+                                <a class="v-header-box-nav-ul-li-a" href="#">Air purifiers</a>
+                                <label for="sub1" class="v-header-box-nav-ul-li-icon"></label>
+                                <input id="sub1" class="v-header-box-nav-ul-li-check" type="checkbox" role="button">
+                                <div class="c-sub-nav">
+                                    <div class="c-sub-nav-header">
+                                        <div class="c-sub-nav-header-link">
+                                            <a class="c-sub-nav-header-link-content" href="#">Air purifiers</a>
                                         </div>
-                                    </li>
-                                    <li class="c-sub-nav-li">
-                                        <a href="#">Sekcja C</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li class="v-header-box-nav-ul-li">
-                            <a class="v-header-box-nav-ul-li-a" href="#">Quality</a>
-                        </li>
-                        <li class="v-header-box-nav-ul-li">
-                            <a class="v-header-box-nav-ul-li-a" href="#">Learn</a>
-                        </li>
-                        <li class="v-header-box-nav-ul-li">
-                            <a class="v-header-box-nav-ul-li-a" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </nav> 
+                                        <label for="sub1" class="icube-icon-undo c-sub-nav-header-return"> Return</label>
+                                    </div>
+                                    <ul>
+                                        <li class="c-sub-nav-li">
+                                            <a href="#">IDEAL AP 30 PRO</a>
+                                        </li>
+                                        <li class="c-sub-nav-li">
+                                            <a href="#">IDEAL AP 40 PRO</a>
+                                        </li>
+                                        <li class="c-sub-nav-li">
+                                            <a href="#">IDEAL AP 60 PRO</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="v-header-box-nav-ul-li">
+                                <a class="v-header-box-nav-ul-li-a" href="#">Filters</a>
+                            </li>
+                            <li class="v-header-box-nav-ul-li">
+                                <a class="v-header-box-nav-ul-li-a" href="#">Accessories</a>
+                                <label for="sub2" class="v-header-box-nav-ul-li-icon"></label>
+                                <input id="sub2" class="v-header-box-nav-ul-li-check" type="checkbox" role="button">
+                                <div class="c-sub-nav">
+                                    <div class="c-sub-nav-header">
+                                        <div class="c-sub-nav-header-link">
+                                            <a class="c-sub-nav-header-link-content" href="#">Accessories</a>
+                                        </div>
+                                        <label for="sub2" class="icube-icon-undo c-sub-nav-header-return"> Return</label>
+                                    </div>
+                                    <ul>
+                                        <li class="c-sub-nav-li">
+                                            <a href="#">Sekcja A</a>
+                                        </li>
+                                        <li class="c-sub-nav-li">
+                                            <a href="#">Sekcja B</a>
+                                            <label for="sub3" class="c-sub-nav-li-icon"></label>
+                                            <input id="sub3" class="c-sub-nav-li-check" type="checkbox" role="button">
+                                            <div class="c-sub-nav">
+                                                <div class="c-sub-nav-header">
+                                                    <div class="c-sub-nav-header-link">
+                                                        <a class="c-sub-nav-header-link-content" href="#">Sekcja B</a>
+                                                    </div>
+                                                    <label for="sub3" class="icube-icon-undo c-sub-nav-header-return"> Return</label>
+                                                </div>
+                                                <ul>
+                                                    <li class="c-sub-nav-li">
+                                                        <a href="#">Podsekcja A</a>
+                                                    </li>
+                                                    <li class="c-sub-nav-li">
+                                                        <a href="#">Podsekcja B</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                        <li class="c-sub-nav-li">
+                                            <a href="#">Sekcja C</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="v-header-box-nav-ul-li">
+                                <a class="v-header-box-nav-ul-li-a" href="#">Quality</a>
+                            </li>
+                            <li class="v-header-box-nav-ul-li">
+                                <a class="v-header-box-nav-ul-li-a" href="#">Learn</a>
+                            </li>
+                            <li class="v-header-box-nav-ul-li">
+                                <a class="v-header-box-nav-ul-li-a" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <input type="reset" class="v-header-box-shadow" value=""></input>
+                </form>
                 <div class="v-header-box-icons">
                     <div class="c-search-bar">
                         <form class="c-search-bar-form">
                             <input id="search-button" type="checkbox" role="button">
-                            <input id="search-label" class="c-search-bar-form-input" type="text" required>
-                            <label for="search-label" class="c-search-bar-form-placeholder">Search</label>
+                            <div>
+                                <input id="search-label" class="c-search-bar-form-input" type="text" required>
+                                <label for="search-label" class="c-search-bar-form-placeholder">Search</label>
+                            </div>
+                            <label for="search-button" class="c-search-bar-form-uncheck"></label>
                             <span class="c-search-bar-form-icon icube-icon-search-2"></span>
                         </form>
                     </div>
@@ -138,7 +144,6 @@
                         <a class="icube-icon-cart-2" href="#"></a>
                     </div>
                 </div>
-                <div class="v-header-box-shadow"></div>
             </div> 
         </header>
         <main id="v-home-page">

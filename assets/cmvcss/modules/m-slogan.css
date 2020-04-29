@@ -1,10 +1,10 @@
 .m-slogan {
-    display: flex; width: 100%; min-height: 720px; background-color: white;
+    display: flex; width: 100%; min-height: 630px; background-color: white;
     background-image: url("../../images/section_first/breath-ideal-air.jpg");
-    background-repeat: no-repeat; background-position: center bottom;
+    background-repeat: no-repeat; background-position: center top;
 }
 
-.m-slogan .m-slogan-box {margin-top: 90px; width: inherit;}
+.m-slogan .m-slogan-box {width: inherit;}
 .m-slogan .m-slogan-box .m-slogan-box-certificates {
     display:inline-block; padding-right: 20px; width: 50%;
 }
@@ -35,8 +35,7 @@
 
 @media screen and (max-width: 1366px) {
     
-    .m-slogan {min-height: 550px;background-size: 1366px auto;background-position-y: 75px;}
-    .m-slogan .m-slogan-box {margin-top: 75px;}
+    .m-slogan {min-height: 450px;background-size: 1366px auto;}
     .m-slogan .m-slogan-box .m-slogan-box-certificates { width: 60%;}
     .m-slogan .m-slogan-box .m-slogan-box-certificates .m-slogan-box-certificates-text .m-slogan-box-certificates-text-box {
         padding-top: 40px;

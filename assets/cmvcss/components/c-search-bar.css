@@ -2,14 +2,21 @@
     display: inline-block; margin-right: 40px; border-bottom: 1px solid #aeaeae; 
     position: relative;
 }
-.c-search-bar .c-search-bar-form .c-search-bar-form-input {
+.c-search-bar .c-search-bar-form div{
+    display: inline-block;
+}
+.c-search-bar .c-search-bar-form div .c-search-bar-form-input {
     position: relative;width: 150px; height: 44px; font-size: 1em; border-style: none; z-index: 1;background-color: #ffffff00;
 }
 .c-search-bar .c-search-bar-form .c-search-bar-form-icon {
     font-size: 24px; vertical-align: middle;
 }
-.c-search-bar .c-search-bar-form .c-search-bar-form-placeholder {
+.c-search-bar .c-search-bar-form div .c-search-bar-form-placeholder {
     position: absolute; transform: translateY(11px); left:0; color:#9b9b9b; transition: transform 0.4s, font-size 0.4s; 
+}
+.c-search-bar-form-uncheck{
+    display: none; width:100vw; height: 100vh; opacity: 0;
+    border:none; position: fixed; top: 0; left: 0; z-index: 1;
 }
 
 /*pseudo*/
